@@ -8,3 +8,4 @@ load_dotenv()
 MONGO_URL = os.getenv("MONGO_URL")
 client  = AsyncIOMotorClient(MONGO_URL)
 db = client["chatbot_saas"]
+company_data_collection = db['crwaled_data']
