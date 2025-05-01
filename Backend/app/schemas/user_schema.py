@@ -3,28 +3,30 @@ from typing import Optional, List
 from enum import Enum
 from datetime import datetime 
 
-
-
-
 class UserRole(str, Enum):
-    SUPER_ADMIN = "super_admin"
     ADMIN = "admin"
-    USER = "user"
+    TENANT = "tenant"
     
 
+
+class AccountType(str, Enum):
+    FREE = "free"
+    PAID = "paid"
+    
 class UserCreate(BaseModel):
     name: str
     email: EmailStr
     password: str
-    role: UserRole
-    tenant_id: Optional[str] = None
+    role: UserRole = UserRole.TENANT
+    account_type : AccountType 
+    has_paid: bool = False
+    created_at: datetime = datetime.utcnow()
 
 class UserUpdate(BaseModel):
     name: Optional[str] = None
     email: Optional[EmailStr] = None
     password: Optional[str] = None
     role: Optional[UserRole] = None
-    tenant_id: Optional[str] = None
     
     
     

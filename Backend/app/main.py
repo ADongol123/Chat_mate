@@ -10,11 +10,28 @@ import uvicorn
 from fastapi import FastAPI
 from app.routes.ai_routes import router as ai_router  # import your router
 from app.api.dataParsing import app as data_routes
+from app.api.auth_routes import app as auth_routes
+from app.api.tenant import app as tenant_routes
+from fastapi.middleware.cors import CORSMiddleware
+
 app = FastAPI()
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # or a list of allowed origins, e.g., ["http://localhost:3000"]
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all HTTP methods, e.g., GET, POST, PUT, DELETE
+    allow_headers=["*"],  # Allows all headers
+)
 
 # Include the ai_routes router
 app.include_router(ai_router)
 app.include_router(data_routes)
+app.include_router(auth_routes)
+app.include_router(tenant_routes)
+
+
 
 
 @app.get("/")

@@ -5,6 +5,7 @@ from datetime import datetime
 
 class TenantCreate(BaseModel):
     name: str
+    contact_email : EmailStr
     domain: str  # e.g., business-name.com
     description: Optional[str] = None
 
