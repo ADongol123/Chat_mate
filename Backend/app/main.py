@@ -13,7 +13,7 @@ from app.api.dataParsing import app as data_routes
 from app.api.auth_routes import app as auth_routes
 from app.api.tenant import app as tenant_routes
 from fastapi.middleware.cors import CORSMiddleware
-
+from app.api.ecom_routes import app as ecom_routes
 app = FastAPI()
 
 
@@ -30,7 +30,7 @@ app.include_router(ai_router)
 app.include_router(data_routes)
 app.include_router(auth_routes)
 app.include_router(tenant_routes)
-
+app.include_router(ecom_routes)
 
 
 

@@ -1,2 +1,5 @@
 venv
 .env
+data
+Notebook/meta_Electronics.csv
+app/data

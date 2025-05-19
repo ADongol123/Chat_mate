@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from app.schemas.website_crawler import WebsiteData
-from app.core.crawler import crawl,fetch_and_parse
+from app.core.crawler import WebCrawler
 from app.db.database import  company_data_collection
 from fastapi import APIRouter
 from fastapi.concurrency import run_in_threadpool
@@ -13,7 +13,11 @@ async def start_crawling(request: WebsiteData):
 
     base_url = request.base_url
     
-    visited = await run_in_threadpool(crawl,base_url,base_url)
+    # Instantiate the WebCrawler
+    crawler = WebCrawler(base_url=base_url, max_workers=10)
+    
+    # Run the crawl in threadpool to avoid blocking the event loop
+    visited = await run_in_threadpool(crawler.crawl)
     
     print(list(visited),"visited")
     
@@ -24,7 +28,7 @@ async def start_crawling(request: WebsiteData):
     
     for url in visited:
         print("Inside the loop")
-        content = fetch_and_parse(url)
+        content = await run_in_threadpool(crawler.fetch_clean_text,url)
         print(url,"response")
         if content:
             contents.append({
