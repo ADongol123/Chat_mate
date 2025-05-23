@@ -5,22 +5,48 @@ import os
 from io import BytesIO
 import fitz 
 from typing import List
+import io
+
+import swifter
 
 def detect_file_type(file: UploadFile) -> str:
-    ext = file.filename.split('.')[-1].lower()
-    return ext
+    if file.filename.endswith(".csv"):
+        return "csv"
+    elif file.filename.endswith(".xlsx") or file.filename.endswith(".xls"):
+        return "excel"
+    else:
+        raise ValueError("Unsupported file type")
+
+
+def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
+    df.columns = df.columns.str.strip().str.lower()
+    df = df.dropna(how='all')  # Remove completely empty rows
+    df = df.dropna(axis=1, thresh=len(df) * 0.5)  # Drop sparse columns
+    df.fillna("", inplace=True)
+    return df
+
+
+def select_text_columns(df: pd.DataFrame) -> List[str]:
+    object_cols = df.select_dtypes(include=['object', 'string']).columns
+    return [col for col in object_cols if df[col].str.len().mean() > 3]
+
+
+def dataframe_to_text_list(df: pd.DataFrame) -> List[str]:
+    text_cols = select_text_columns(df)
+    return df[text_cols].apply(lambda row: " | ".join(row.astype(str)), axis=1).tolist()
+
+
 
 def read_file(file: UploadFile, file_type: str) -> pd.DataFrame:
     contents = file.file.read()
-    print(file_type,"file_type")
-    if file_type == 'csv':
-        return pd.read_csv(BytesIO(contents))
-    elif file_type in ['xlsx', 'xls']:
-        return pd.read_excel(BytesIO(contents))
-    elif file_type == 'pdf':
-        return pdf_to_dataframe(contents)
+    if file_type == "csv":
+        df = pd.read_csv(io.StringIO(contents.decode("utf-8")))
     else:
-        raise HTTPException(status_code=400, detail="Unsupported file type")
+        df = pd.read_excel(io.BytesIO(contents))
+    return clean_dataframe(df)
+
+
+
 
 def pdf_to_dataframe(content: bytes) -> pd.DataFrame:
     text_data = []
@@ -40,54 +66,15 @@ def infer_text_from_row(row: pd.Series) -> str:
             text_parts.append(f"{col.capitalize()}: {val_str}")
     return " | ".join(text_parts)
 
+import swifter
+
 def dataframe_to_text_list(df: pd.DataFrame) -> List[str]:
-    return [infer_text_from_row(row) for _, row in df.iterrows()]
-    
-    
-def save_temp_file(file: UploadFile) -> str:
-    """Save uploaded file to a temporary path and return the path."""
-    with tempfile.NamedTemporaryFile(delete=False) as tmp:
-        tmp.write(file.file.read())
-        return tmp.name
-
-def load_and_clean_csv(path: str) -> pd.DataFrame:
-    """Load and clean the CSV data."""
-    df = pd.read_csv(path)
-    os.remove(path)  
-
-    df.columns = df.columns.str.strip().str.lower()
-
-    df.fillna({
-        'title': 'No title',
-        'stars': 0.0,
-        'reviews': 0,
-        'price': '0',
-        'listprice': '0',
-        'category_id': 'unknown',
-        'isbestseller': False,
-        'boughtinlastmonth': 0
-    }, inplace=True)
-
-    df['title'] = df['title'].astype(str).str.strip()
-    df['stars'] = pd.to_numeric(df['stars'], errors='coerce').fillna(0.0)
-    df['reviews'] = pd.to_numeric(df['reviews'], errors='coerce').fillna(0).astype(int)
-    df['price'] = df['price'].astype(str).str.replace('$', '', regex=False).astype(float)
-    df['listprice'] = df['listprice'].astype(str).str.replace('$', '', regex=False).astype(float)
-    df['boughtinlastmonth'] = pd.to_numeric(df['boughtinlastmonth'], errors='coerce').fillna(0).astype(int)
-    df['isbestseller'] = df['isbestseller'].astype(str).str.lower().isin(['true', '1', 'yes'])
-
-    return df
-
-
-def parse_product_text(row) -> str:
-    """Build a descriptive text string for each product row."""
-    text = f"Product: {row['title']} | Category: {row['category_id']} | "
-    text += f"Price: ${row['price']:.2f} | Stars: {row['stars']} from {row['reviews']} reviews | "
-    if row['isbestseller']:
-        text += "🔥 Best Seller! | "
-    if row['boughtinlastmonth'] > 0:
-        text += f"Bought {row['boughtinlastmonth']} times last month |"
-    return text.strip()
+    def row_to_text(row):
+        return " | ".join([
+            f"{col.capitalize()}: {str(val).strip()}"
+            for col, val in row.items() if pd.notna(val) and str(val).strip()
+        ])
+    return df.swifter.apply(row_to_text, axis=1).tolist()
 
 
 

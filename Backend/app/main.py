@@ -10,7 +10,7 @@ import uvicorn
 from fastapi import FastAPI
 from app.routes.ai_routes import router as ai_router  # import your router
 from app.api.dataParsing import app as data_routes
-from app.api.auth_routes import app as auth_routes
+from app.api.auth_routes import router as auth_routes
 from app.api.tenant import app as tenant_routes
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.ecom_routes import app as ecom_routes
