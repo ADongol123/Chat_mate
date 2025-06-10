@@ -1,0 +1,2612 @@
+[
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Form",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Form",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "RedirectResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "importPath": "app.utils.hashing",
+        "description": "app.utils.hashing",
+        "isExtraImport": true,
+        "detail": "app.utils.hashing",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "importPath": "app.utils.hashing",
+        "description": "app.utils.hashing",
+        "isExtraImport": true,
+        "detail": "app.utils.hashing",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "importPath": "app.utils.hashing",
+        "description": "app.utils.hashing",
+        "isExtraImport": true,
+        "detail": "app.utils.hashing",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "importPath": "app.utils.hashing",
+        "description": "app.utils.hashing",
+        "isExtraImport": true,
+        "detail": "app.utils.hashing",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "app.utils.jwt_handler",
+        "description": "app.utils.jwt_handler",
+        "isExtraImport": true,
+        "detail": "app.utils.jwt_handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "app.utils.jwt_handler",
+        "description": "app.utils.jwt_handler",
+        "isExtraImport": true,
+        "detail": "app.utils.jwt_handler",
+        "documentation": {}
+    },
+    {
+        "label": "users_collection",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "company_data_collection",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.utils.config",
+        "description": "app.utils.config",
+        "isExtraImport": true,
+        "detail": "app.utils.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.utils.config",
+        "description": "app.utils.config",
+        "isExtraImport": true,
+        "detail": "app.utils.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.utils.config",
+        "description": "app.utils.config",
+        "isExtraImport": true,
+        "detail": "app.utils.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.utils.config",
+        "description": "app.utils.config",
+        "isExtraImport": true,
+        "detail": "app.utils.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.utils.config",
+        "description": "app.utils.config",
+        "isExtraImport": true,
+        "detail": "app.utils.config",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth",
+        "importPath": "authlib.integrations.starlette_client",
+        "description": "authlib.integrations.starlette_client",
+        "isExtraImport": true,
+        "detail": "authlib.integrations.starlette_client",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "starlette.config",
+        "description": "starlette.config",
+        "isExtraImport": true,
+        "detail": "starlette.config",
+        "documentation": {}
+    },
+    {
+        "label": "SessionMiddleware",
+        "importPath": "starlette.middleware.sessions",
+        "description": "starlette.middleware.sessions",
+        "isExtraImport": true,
+        "detail": "starlette.middleware.sessions",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "ChatbotCreate",
+        "importPath": "app.schemas.chatbot_schema",
+        "description": "app.schemas.chatbot_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.chatbot_schema",
+        "documentation": {}
+    },
+    {
+        "label": "create_chatbot",
+        "importPath": "app.services.chatbot_service",
+        "description": "app.services.chatbot_service",
+        "isExtraImport": true,
+        "detail": "app.services.chatbot_service",
+        "documentation": {}
+    },
+    {
+        "label": "WebsiteData",
+        "importPath": "app.schemas.website_crawler",
+        "description": "app.schemas.website_crawler",
+        "isExtraImport": true,
+        "detail": "app.schemas.website_crawler",
+        "documentation": {}
+    },
+    {
+        "label": "WebCrawler",
+        "importPath": "app.core.crawler",
+        "description": "app.core.crawler",
+        "isExtraImport": true,
+        "detail": "app.core.crawler",
+        "documentation": {}
+    },
+    {
+        "label": "run_in_threadpool",
+        "importPath": "fastapi.concurrency",
+        "description": "fastapi.concurrency",
+        "isExtraImport": true,
+        "detail": "fastapi.concurrency",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "detect_file_type",
+        "importPath": "app.core.ecom_parsing",
+        "description": "app.core.ecom_parsing",
+        "isExtraImport": true,
+        "detail": "app.core.ecom_parsing",
+        "documentation": {}
+    },
+    {
+        "label": "read_file",
+        "importPath": "app.core.ecom_parsing",
+        "description": "app.core.ecom_parsing",
+        "isExtraImport": true,
+        "detail": "app.core.ecom_parsing",
+        "documentation": {}
+    },
+    {
+        "label": "dataframe_to_text_list",
+        "importPath": "app.core.ecom_parsing",
+        "description": "app.core.ecom_parsing",
+        "isExtraImport": true,
+        "detail": "app.core.ecom_parsing",
+        "documentation": {}
+    },
+    {
+        "label": "select_text_columns",
+        "importPath": "app.core.ecom_parsing",
+        "description": "app.core.ecom_parsing",
+        "isExtraImport": true,
+        "detail": "app.core.ecom_parsing",
+        "documentation": {}
+    },
+    {
+        "label": "Qdrant",
+        "importPath": "langchain_community.vectorstores",
+        "description": "langchain_community.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_community.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceEmbeddings",
+        "importPath": "langchain_huggingface",
+        "description": "langchain_huggingface",
+        "isExtraImport": true,
+        "detail": "langchain_huggingface",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "isExtraImport": true,
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "QdrantClient",
+        "importPath": "qdrant_client",
+        "description": "qdrant_client",
+        "isExtraImport": true,
+        "detail": "qdrant_client",
+        "documentation": {}
+    },
+    {
+        "label": "QdrantClient",
+        "importPath": "qdrant_client",
+        "description": "qdrant_client",
+        "isExtraImport": true,
+        "detail": "qdrant_client",
+        "documentation": {}
+    },
+    {
+        "label": "ThreadPoolExecutor",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "ThreadPoolExecutor",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "as_completed",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "torchvision",
+        "description": "torchvision",
+        "isExtraImport": true,
+        "detail": "torchvision",
+        "documentation": {}
+    },
+    {
+        "label": "transforms",
+        "importPath": "torchvision",
+        "description": "torchvision",
+        "isExtraImport": true,
+        "detail": "torchvision",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "torchvision",
+        "description": "torchvision",
+        "isExtraImport": true,
+        "detail": "torchvision",
+        "documentation": {}
+    },
+    {
+        "label": "datasets",
+        "importPath": "torchvision",
+        "description": "torchvision",
+        "isExtraImport": true,
+        "detail": "torchvision",
+        "documentation": {}
+    },
+    {
+        "label": "transforms",
+        "importPath": "torchvision",
+        "description": "torchvision",
+        "isExtraImport": true,
+        "detail": "torchvision",
+        "documentation": {}
+    },
+    {
+        "label": "transforms",
+        "importPath": "torchvision",
+        "description": "torchvision",
+        "isExtraImport": true,
+        "detail": "torchvision",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "TenantCreate",
+        "importPath": "app.schemas.tenant_schema",
+        "description": "app.schemas.tenant_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.tenant_schema",
+        "documentation": {}
+    },
+    {
+        "label": "create_tenant",
+        "importPath": "app.services.tenant_service",
+        "description": "app.services.tenant_service",
+        "isExtraImport": true,
+        "detail": "app.services.tenant_service",
+        "documentation": {}
+    },
+    {
+        "label": "approve_tenant",
+        "importPath": "app.services.tenant_service",
+        "description": "app.services.tenant_service",
+        "isExtraImport": true,
+        "detail": "app.services.tenant_service",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "urljoin",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "PdfReader",
+        "importPath": "PyPDF2",
+        "description": "PyPDF2",
+        "isExtraImport": true,
+        "detail": "PyPDF2",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPAdapter",
+        "importPath": "requests.adapters",
+        "description": "requests.adapters",
+        "isExtraImport": true,
+        "detail": "requests.adapters",
+        "documentation": {}
+    },
+    {
+        "label": "Retry",
+        "importPath": "urllib3.util.retry",
+        "description": "urllib3.util.retry",
+        "isExtraImport": true,
+        "detail": "urllib3.util.retry",
+        "documentation": {}
+    },
+    {
+        "label": "faiss",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "faiss",
+        "description": "faiss",
+        "detail": "faiss",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "fitz",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fitz",
+        "description": "fitz",
+        "detail": "fitz",
+        "documentation": {}
+    },
+    {
+        "label": "swifter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "swifter",
+        "description": "swifter",
+        "detail": "swifter",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "get_transform",
+        "importPath": "utils.transforms",
+        "description": "utils.transforms",
+        "isExtraImport": true,
+        "detail": "utils.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "torch.optim",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.optim",
+        "description": "torch.optim",
+        "detail": "torch.optim",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "CNNModel",
+        "importPath": "app.model_ai.model_def",
+        "description": "app.model_ai.model_def",
+        "isExtraImport": true,
+        "detail": "app.model_ai.model_def",
+        "documentation": {}
+    },
+    {
+        "label": "CNNModel",
+        "importPath": "app.model_ai.model_def",
+        "description": "app.model_ai.model_def",
+        "isExtraImport": true,
+        "detail": "app.model_ai.model_def",
+        "documentation": {}
+    },
+    {
+        "label": "ProdductImageDataset",
+        "importPath": "utils.dataset",
+        "description": "utils.dataset",
+        "isExtraImport": true,
+        "detail": "utils.dataset",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_channels",
+        "importPath": "Backend.app.model_ai.model_def",
+        "description": "Backend.app.model_ai.model_def",
+        "isExtraImport": true,
+        "detail": "Backend.app.model_ai.model_def",
+        "documentation": {}
+    },
+    {
+        "label": "VectorParams",
+        "importPath": "qdrant_client.models",
+        "description": "qdrant_client.models",
+        "isExtraImport": true,
+        "detail": "qdrant_client.models",
+        "documentation": {}
+    },
+    {
+        "label": "Distance",
+        "importPath": "qdrant_client.models",
+        "description": "qdrant_client.models",
+        "isExtraImport": true,
+        "detail": "qdrant_client.models",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "load_intent_data",
+        "importPath": "app.utils.ai_data_load",
+        "description": "app.utils.ai_data_load",
+        "isExtraImport": true,
+        "detail": "app.utils.ai_data_load",
+        "documentation": {}
+    },
+    {
+        "label": "AccountType",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserRole",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserRole",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "AccountType",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "uvicorn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "your router",
+        "importPath": "app.routes.ai_routes import router as ai_router  #",
+        "description": "app.routes.ai_routes import router as ai_router  #",
+        "isExtraImport": true,
+        "detail": "app.routes.ai_routes import router as ai_router  #",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app.api.dataParsing",
+        "description": "app.api.dataParsing",
+        "isExtraImport": true,
+        "detail": "app.api.dataParsing",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.auth_routes",
+        "description": "app.api.auth_routes",
+        "isExtraImport": true,
+        "detail": "app.api.auth_routes",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app.api.tenant",
+        "description": "app.api.tenant",
+        "isExtraImport": true,
+        "detail": "app.api.tenant",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app.api.ecom_routes",
+        "description": "app.api.ecom_routes",
+        "isExtraImport": true,
+        "detail": "app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "sysconfig",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sysconfig",
+        "description": "sysconfig",
+        "detail": "sysconfig",
+        "documentation": {}
+    },
+    {
+        "label": "winreg",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "winreg",
+        "description": "winreg",
+        "detail": "winreg",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterModel",
+        "kind": 6,
+        "importPath": "Backend.app.api.auth_routes",
+        "description": "Backend.app.api.auth_routes",
+        "peekOfCode": "class RegisterModel(BaseModel):\n    email: EmailStr\n    full_name: str\n    password: str\nclass LoginModel(BaseModel):\n    email: str\n    password: str\n@router.post(\"/auth/register\")\nasync def register(user: RegisterModel):\n    existing_user = await users_collection.find_one({\"email\": user.email})",
+        "detail": "Backend.app.api.auth_routes",
+        "documentation": {}
+    },
+    {
+        "label": "LoginModel",
+        "kind": 6,
+        "importPath": "Backend.app.api.auth_routes",
+        "description": "Backend.app.api.auth_routes",
+        "peekOfCode": "class LoginModel(BaseModel):\n    email: str\n    password: str\n@router.post(\"/auth/register\")\nasync def register(user: RegisterModel):\n    existing_user = await users_collection.find_one({\"email\": user.email})\n    if existing_user:\n        raise HTTPException(status_code=400, detail=\"Email already registered\")\n    hashed_pw = hash_password(user.password)\n    user_dict = user.dict()",
+        "detail": "Backend.app.api.auth_routes",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "Backend.app.api.auth_routes",
+        "description": "Backend.app.api.auth_routes",
+        "peekOfCode": "router = APIRouter()\n# router.add_middleware(SessionMiddleware, secret_key=\"your_super_secret_key\")\n# router.include_router(auth_routes.router)\n# OAuth configuration\nconfig_data = {\n    \"GOOGLE_CLIENT_ID\": settings.GOOGLE_CLIENT_ID,\n    \"GOOGLE_CLIENT_SECRET\": settings.GOOGLE_CLIENT_SECRET,\n    \"SECRET_KEY\": settings.SECRET_KEY,\n}\nconfig = Config(environ=config_data)",
+        "detail": "Backend.app.api.auth_routes",
+        "documentation": {}
+    },
+    {
+        "label": "config_data",
+        "kind": 5,
+        "importPath": "Backend.app.api.auth_routes",
+        "description": "Backend.app.api.auth_routes",
+        "peekOfCode": "config_data = {\n    \"GOOGLE_CLIENT_ID\": settings.GOOGLE_CLIENT_ID,\n    \"GOOGLE_CLIENT_SECRET\": settings.GOOGLE_CLIENT_SECRET,\n    \"SECRET_KEY\": settings.SECRET_KEY,\n}\nconfig = Config(environ=config_data)\noauth = OAuth(config)\noauth.register(\n    name='google',\n    client_id=settings.GOOGLE_CLIENT_ID,",
+        "detail": "Backend.app.api.auth_routes",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "Backend.app.api.auth_routes",
+        "description": "Backend.app.api.auth_routes",
+        "peekOfCode": "config = Config(environ=config_data)\noauth = OAuth(config)\noauth.register(\n    name='google',\n    client_id=settings.GOOGLE_CLIENT_ID,\n    client_secret=settings.GOOGLE_CLIENT_SECRET,\n    access_token_url='https://accounts.google.com/o/oauth2/token',\n    access_token_params=None,\n    authorize_url='https://accounts.google.com/o/oauth2/auth',\n    authorize_params=None,",
+        "detail": "Backend.app.api.auth_routes",
+        "documentation": {}
+    },
+    {
+        "label": "oauth",
+        "kind": 5,
+        "importPath": "Backend.app.api.auth_routes",
+        "description": "Backend.app.api.auth_routes",
+        "peekOfCode": "oauth = OAuth(config)\noauth.register(\n    name='google',\n    client_id=settings.GOOGLE_CLIENT_ID,\n    client_secret=settings.GOOGLE_CLIENT_SECRET,\n    access_token_url='https://accounts.google.com/o/oauth2/token',\n    access_token_params=None,\n    authorize_url='https://accounts.google.com/o/oauth2/auth',\n    authorize_params=None,\n    api_base_url='https://www.googleapis.com/oauth2/v1/',",
+        "detail": "Backend.app.api.auth_routes",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "Backend.app.api.chatbot",
+        "description": "Backend.app.api.chatbot",
+        "peekOfCode": "router = APIRouter()\n@router.post(\"/\")\nasync def create_new_chatbot(chatbot: ChatbotCreate):\n    chatbot_data = await create_chatbot(chatbot)\n    return {\"msg\": \"Chatbot created\", \"data\": chatbot_data}",
+        "detail": "Backend.app.api.chatbot",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Backend.app.api.dataParsing",
+        "description": "Backend.app.api.dataParsing",
+        "peekOfCode": "app = APIRouter()\n@app.post(\"/crawl\")\nasync def start_crawling(request: WebsiteData):\n    base_url = request.base_url\n    # Instantiate the WebCrawler\n    crawler = WebCrawler(base_url=base_url, max_workers=10)\n    # Run the crawl in threadpool to avoid blocking the event loop\n    visited = await run_in_threadpool(crawler.crawl)\n    print(list(visited),\"visited\")\n    if not visited:",
+        "detail": "Backend.app.api.dataParsing",
+        "documentation": {}
+    },
+    {
+        "label": "Query_values",
+        "kind": 6,
+        "importPath": "Backend.app.api.ecom_routes",
+        "description": "Backend.app.api.ecom_routes",
+        "peekOfCode": "class Query_values(BaseModel):\n    question: str\n    top_k: int = 5\napp = APIRouter(prefix=\"/ecom\", tags=[\"E-commerce\"])\nuser_vectorstore_cache = {}\nembeddings_collection = db[\"embeddings\"]\n# Embedding model for text\naccurate_model_id = 'all-mpnet-base-v2'\naccurate_embedding_model = HuggingFaceEmbeddings(model_name=accurate_model_id)\n# Qdrant settings",
+        "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "ResNetFeatureExtractor",
+        "kind": 6,
+        "importPath": "Backend.app.api.ecom_routes",
+        "description": "Backend.app.api.ecom_routes",
+        "peekOfCode": "class ResNetFeatureExtractor(torch.nn.Module):\n    def __init__(self, original_model, output_dim):\n        super().__init__()\n        # Take all layers except the last classification layer (avgpool + fc)\n        self.features = torch.nn.Sequential(*(list(original_model.children())[:-1]))\n        # Add a linear layer to project to the desired output dimension\n        self.projection = torch.nn.Linear(2048, output_dim) # ResNet50 outputs 2048 features before FC\n    def forward(self, x):\n        x = self.features(x)\n        x = torch.flatten(x, 1) # Flatten the output of avgpool (e.g., from [batch, 2048, 1, 1] to [batch, 2048])",
+        "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "get_image_embedding",
+        "kind": 2,
+        "importPath": "Backend.app.api.ecom_routes",
+        "description": "Backend.app.api.ecom_routes",
+        "peekOfCode": "def get_image_embedding(image_bytes):\n    \"\"\"\n    Generates a vector embedding for an image, projected to 768 dimensions.\n    Args:\n        image_bytes: Bytes of the image file.\n    Returns:\n        A list representing the 768-dimensional image embedding.\n    \"\"\"\n    try:\n        image = Image.open(io.BytesIO(image_bytes)).convert(\"RGB\")",
+        "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "executor",
+        "kind": 5,
+        "importPath": "Backend.app.api.ecom_routes",
+        "description": "Backend.app.api.ecom_routes",
+        "peekOfCode": "executor = ThreadPoolExecutor(max_workers=os.cpu_count() * 2)\nclass Query_values(BaseModel):\n    question: str\n    top_k: int = 5\napp = APIRouter(prefix=\"/ecom\", tags=[\"E-commerce\"])\nuser_vectorstore_cache = {}\nembeddings_collection = db[\"embeddings\"]\n# Embedding model for text\naccurate_model_id = 'all-mpnet-base-v2'\naccurate_embedding_model = HuggingFaceEmbeddings(model_name=accurate_model_id)",
+        "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Backend.app.api.ecom_routes",
+        "description": "Backend.app.api.ecom_routes",
+        "peekOfCode": "app = APIRouter(prefix=\"/ecom\", tags=[\"E-commerce\"])\nuser_vectorstore_cache = {}\nembeddings_collection = db[\"embeddings\"]\n# Embedding model for text\naccurate_model_id = 'all-mpnet-base-v2'\naccurate_embedding_model = HuggingFaceEmbeddings(model_name=accurate_model_id)\n# Qdrant settings\nQDRANT_URL = settings.QDRANT_URL\nQDRANT_API_KEY = settings.QDRANT_API_KEY\nqdrant_client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)",
+        "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "user_vectorstore_cache",
+        "kind": 5,
+        "importPath": "Backend.app.api.ecom_routes",
+        "description": "Backend.app.api.ecom_routes",
+        "peekOfCode": "user_vectorstore_cache = {}\nembeddings_collection = db[\"embeddings\"]\n# Embedding model for text\naccurate_model_id = 'all-mpnet-base-v2'\naccurate_embedding_model = HuggingFaceEmbeddings(model_name=accurate_model_id)\n# Qdrant settings\nQDRANT_URL = settings.QDRANT_URL\nQDRANT_API_KEY = settings.QDRANT_API_KEY\nqdrant_client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)\n# --- Image embedding model and functions ---",
+        "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "embeddings_collection",
+        "kind": 5,
+        "importPath": "Backend.app.api.ecom_routes",
+        "description": "Backend.app.api.ecom_routes",
+        "peekOfCode": "embeddings_collection = db[\"embeddings\"]\n# Embedding model for text\naccurate_model_id = 'all-mpnet-base-v2'\naccurate_embedding_model = HuggingFaceEmbeddings(model_name=accurate_model_id)\n# Qdrant settings\nQDRANT_URL = settings.QDRANT_URL\nQDRANT_API_KEY = settings.QDRANT_API_KEY\nqdrant_client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)\n# --- Image embedding model and functions ---\n# Load a pre-trained ResNet model for image embeddings",
+        "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "accurate_model_id",
+        "kind": 5,
+        "importPath": "Backend.app.api.ecom_routes",
+        "description": "Backend.app.api.ecom_routes",
+        "peekOfCode": "accurate_model_id = 'all-mpnet-base-v2'\naccurate_embedding_model = HuggingFaceEmbeddings(model_name=accurate_model_id)\n# Qdrant settings\nQDRANT_URL = settings.QDRANT_URL\nQDRANT_API_KEY = settings.QDRANT_API_KEY\nqdrant_client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)\n# --- Image embedding model and functions ---\n# Load a pre-trained ResNet model for image embeddings\nresnet_model = models.resnet50(pretrained=True)\n# Set the model to evaluation mode (important for inference)",
+        "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "accurate_embedding_model",
+        "kind": 5,
+        "importPath": "Backend.app.api.ecom_routes",
+        "description": "Backend.app.api.ecom_routes",
+        "peekOfCode": "accurate_embedding_model = HuggingFaceEmbeddings(model_name=accurate_model_id)\n# Qdrant settings\nQDRANT_URL = settings.QDRANT_URL\nQDRANT_API_KEY = settings.QDRANT_API_KEY\nqdrant_client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)\n# --- Image embedding model and functions ---\n# Load a pre-trained ResNet model for image embeddings\nresnet_model = models.resnet50(pretrained=True)\n# Set the model to evaluation mode (important for inference)\nresnet_model.eval()",
+        "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "QDRANT_URL",
+        "kind": 5,
+        "importPath": "Backend.app.api.ecom_routes",
+        "description": "Backend.app.api.ecom_routes",
+        "peekOfCode": "QDRANT_URL = settings.QDRANT_URL\nQDRANT_API_KEY = settings.QDRANT_API_KEY\nqdrant_client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)\n# --- Image embedding model and functions ---\n# Load a pre-trained ResNet model for image embeddings\nresnet_model = models.resnet50(pretrained=True)\n# Set the model to evaluation mode (important for inference)\nresnet_model.eval()\nclass ResNetFeatureExtractor(torch.nn.Module):\n    def __init__(self, original_model, output_dim):",
+        "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "QDRANT_API_KEY",
+        "kind": 5,
+        "importPath": "Backend.app.api.ecom_routes",
+        "description": "Backend.app.api.ecom_routes",
+        "peekOfCode": "QDRANT_API_KEY = settings.QDRANT_API_KEY\nqdrant_client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)\n# --- Image embedding model and functions ---\n# Load a pre-trained ResNet model for image embeddings\nresnet_model = models.resnet50(pretrained=True)\n# Set the model to evaluation mode (important for inference)\nresnet_model.eval()\nclass ResNetFeatureExtractor(torch.nn.Module):\n    def __init__(self, original_model, output_dim):\n        super().__init__()",
+        "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "qdrant_client",
+        "kind": 5,
+        "importPath": "Backend.app.api.ecom_routes",
+        "description": "Backend.app.api.ecom_routes",
+        "peekOfCode": "qdrant_client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)\n# --- Image embedding model and functions ---\n# Load a pre-trained ResNet model for image embeddings\nresnet_model = models.resnet50(pretrained=True)\n# Set the model to evaluation mode (important for inference)\nresnet_model.eval()\nclass ResNetFeatureExtractor(torch.nn.Module):\n    def __init__(self, original_model, output_dim):\n        super().__init__()\n        # Take all layers except the last classification layer (avgpool + fc)",
+        "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "resnet_model",
+        "kind": 5,
+        "importPath": "Backend.app.api.ecom_routes",
+        "description": "Backend.app.api.ecom_routes",
+        "peekOfCode": "resnet_model = models.resnet50(pretrained=True)\n# Set the model to evaluation mode (important for inference)\nresnet_model.eval()\nclass ResNetFeatureExtractor(torch.nn.Module):\n    def __init__(self, original_model, output_dim):\n        super().__init__()\n        # Take all layers except the last classification layer (avgpool + fc)\n        self.features = torch.nn.Sequential(*(list(original_model.children())[:-1]))\n        # Add a linear layer to project to the desired output dimension\n        self.projection = torch.nn.Linear(2048, output_dim) # ResNet50 outputs 2048 features before FC",
+        "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "image_feature_extractor",
+        "kind": 5,
+        "importPath": "Backend.app.api.ecom_routes",
+        "description": "Backend.app.api.ecom_routes",
+        "peekOfCode": "image_feature_extractor = ResNetFeatureExtractor(resnet_model, output_dim=768)\nimage_feature_extractor.eval() # Set to evaluation mode\nimage_transform = transforms.Compose([\n    transforms.Resize((224, 224)),\n    transforms.ToTensor(),\n    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n])\ndef get_image_embedding(image_bytes):\n    \"\"\"\n    Generates a vector embedding for an image, projected to 768 dimensions.",
+        "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "image_transform",
+        "kind": 5,
+        "importPath": "Backend.app.api.ecom_routes",
+        "description": "Backend.app.api.ecom_routes",
+        "peekOfCode": "image_transform = transforms.Compose([\n    transforms.Resize((224, 224)),\n    transforms.ToTensor(),\n    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n])\ndef get_image_embedding(image_bytes):\n    \"\"\"\n    Generates a vector embedding for an image, projected to 768 dimensions.\n    Args:\n        image_bytes: Bytes of the image file.",
+        "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Backend.app.api.tenant",
+        "description": "Backend.app.api.tenant",
+        "peekOfCode": "app = APIRouter(prefix=\"/tenants\", tags=[\"Tenants\"])\n@app.post(\"/\")\nasync def create_tenant_route(data: TenantCreate):\n    try:\n        return await create_tenant(data)\n    except Exception as e:\n        raise HTTPException(status_code=400 , detail=str(e))\n@app.post(\"approve/{tenant_id}\")\nasync def approve_tenant_route(tenant_id:str):\n    try:",
+        "detail": "Backend.app.api.tenant",
+        "documentation": {}
+    },
+    {
+        "label": "WebCrawler",
+        "kind": 6,
+        "importPath": "Backend.app.core.crawler",
+        "description": "Backend.app.core.crawler",
+        "peekOfCode": "class WebCrawler:\n    def __init__(self, base_url, max_workers=10):\n        self.base_url = base_url.rstrip('/')\n        self.visited = set()\n        self.to_visit = set([self.base_url])\n        self.lock = threading.Lock()\n        self.session = self._init_session()\n        self.executor = ThreadPoolExecutor(max_workers=max_workers)\n    def _init_session(self):\n        session = requests.Session()",
+        "detail": "Backend.app.core.crawler",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "Backend.app.core.crawler",
+        "description": "Backend.app.core.crawler",
+        "peekOfCode": "logger = logging.getLogger(\"WebCrawler\")\nclass WebCrawler:\n    def __init__(self, base_url, max_workers=10):\n        self.base_url = base_url.rstrip('/')\n        self.visited = set()\n        self.to_visit = set([self.base_url])\n        self.lock = threading.Lock()\n        self.session = self._init_session()\n        self.executor = ThreadPoolExecutor(max_workers=max_workers)\n    def _init_session(self):",
+        "detail": "Backend.app.core.crawler",
+        "documentation": {}
+    },
+    {
+        "label": "generate_embeddings",
+        "kind": 2,
+        "importPath": "Backend.app.core.ecom_embeddings",
+        "description": "Backend.app.core.ecom_embeddings",
+        "peekOfCode": "def generate_embeddings(texts: list) -> np.ndarray:\n    \"\"\"Generate embeddings using the SentenceTransformer model.\"\"\"\n    return model.encode(texts, show_progress_bar=True)\ndef create_faiss_index(embeddings: np.ndarray) -> faiss.IndexIVFFlat:\n    dim = embeddings.shape[1]\n    quantizer = faiss.IndexFlatL2(dim)\n    index = faiss.IndexIVFFlat(quantizer, dim, nlist=100)  # nlist = number of clusters\n    index.train(embeddings)  # Important: train first!\n    index.add(embeddings)\n    return index",
+        "detail": "Backend.app.core.ecom_embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "create_faiss_index",
+        "kind": 2,
+        "importPath": "Backend.app.core.ecom_embeddings",
+        "description": "Backend.app.core.ecom_embeddings",
+        "peekOfCode": "def create_faiss_index(embeddings: np.ndarray) -> faiss.IndexIVFFlat:\n    dim = embeddings.shape[1]\n    quantizer = faiss.IndexFlatL2(dim)\n    index = faiss.IndexIVFFlat(quantizer, dim, nlist=100)  # nlist = number of clusters\n    index.train(embeddings)  # Important: train first!\n    index.add(embeddings)\n    return index\ndef search_index(query_embedding, index,product_metadata, threshold:0.4):\n    query_embedding = np.array([query_embedding]).astype(\"float32\")\n    #FAISS returns (distances, indices)",
+        "detail": "Backend.app.core.ecom_embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "search_index",
+        "kind": 2,
+        "importPath": "Backend.app.core.ecom_embeddings",
+        "description": "Backend.app.core.ecom_embeddings",
+        "peekOfCode": "def search_index(query_embedding, index,product_metadata, threshold:0.4):\n    query_embedding = np.array([query_embedding]).astype(\"float32\")\n    #FAISS returns (distances, indices)\n    distances, indices = index.search(query_embedding, k=5)\n    best_distance = distances[0][0]\n    best_index = indices[0][0]\n    #Check if best distance is below threshold\n    if best_distance > threshold:\n        return None\n    return product_metadata[best_index]",
+        "detail": "Backend.app.core.ecom_embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "Backend.app.core.ecom_embeddings",
+        "description": "Backend.app.core.ecom_embeddings",
+        "peekOfCode": "model = SentenceTransformer(\"all-MiniLM-L6-v2\")\ndef generate_embeddings(texts: list) -> np.ndarray:\n    \"\"\"Generate embeddings using the SentenceTransformer model.\"\"\"\n    return model.encode(texts, show_progress_bar=True)\ndef create_faiss_index(embeddings: np.ndarray) -> faiss.IndexIVFFlat:\n    dim = embeddings.shape[1]\n    quantizer = faiss.IndexFlatL2(dim)\n    index = faiss.IndexIVFFlat(quantizer, dim, nlist=100)  # nlist = number of clusters\n    index.train(embeddings)  # Important: train first!\n    index.add(embeddings)",
+        "detail": "Backend.app.core.ecom_embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "detect_file_type",
+        "kind": 2,
+        "importPath": "Backend.app.core.ecom_parsing",
+        "description": "Backend.app.core.ecom_parsing",
+        "peekOfCode": "def detect_file_type(file: UploadFile) -> str:\n    if file.filename.endswith(\".csv\"):\n        return \"csv\"\n    elif file.filename.endswith(\".xlsx\") or file.filename.endswith(\".xls\"):\n        return \"excel\"\n    else:\n        raise ValueError(\"Unsupported file type\")\ndef clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:\n    df.columns = df.columns.str.strip().str.lower()\n    df = df.dropna(how='all')  # Remove completely empty rows",
+        "detail": "Backend.app.core.ecom_parsing",
+        "documentation": {}
+    },
+    {
+        "label": "clean_dataframe",
+        "kind": 2,
+        "importPath": "Backend.app.core.ecom_parsing",
+        "description": "Backend.app.core.ecom_parsing",
+        "peekOfCode": "def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:\n    df.columns = df.columns.str.strip().str.lower()\n    df = df.dropna(how='all')  # Remove completely empty rows\n    df = df.dropna(axis=1, thresh=len(df) * 0.5)  # Drop sparse columns\n    df.fillna(\"\", inplace=True)\n    return df\ndef select_text_columns(df: pd.DataFrame) -> List[str]:\n    object_cols = df.select_dtypes(include=['object', 'string']).columns\n    return [col for col in object_cols if df[col].str.len().mean() > 3]\ndef dataframe_to_text_list(df: pd.DataFrame) -> List[str]:",
+        "detail": "Backend.app.core.ecom_parsing",
+        "documentation": {}
+    },
+    {
+        "label": "select_text_columns",
+        "kind": 2,
+        "importPath": "Backend.app.core.ecom_parsing",
+        "description": "Backend.app.core.ecom_parsing",
+        "peekOfCode": "def select_text_columns(df: pd.DataFrame) -> List[str]:\n    object_cols = df.select_dtypes(include=['object', 'string']).columns\n    return [col for col in object_cols if df[col].str.len().mean() > 3]\ndef dataframe_to_text_list(df: pd.DataFrame) -> List[str]:\n    text_cols = select_text_columns(df)\n    return df[text_cols].apply(lambda row: \" | \".join(row.astype(str)), axis=1).tolist()\ndef read_file(file: UploadFile, file_type: str) -> pd.DataFrame:\n    contents = file.file.read()\n    if file_type == \"csv\":\n        df = pd.read_csv(io.StringIO(contents.decode(\"utf-8\")))",
+        "detail": "Backend.app.core.ecom_parsing",
+        "documentation": {}
+    },
+    {
+        "label": "dataframe_to_text_list",
+        "kind": 2,
+        "importPath": "Backend.app.core.ecom_parsing",
+        "description": "Backend.app.core.ecom_parsing",
+        "peekOfCode": "def dataframe_to_text_list(df: pd.DataFrame) -> List[str]:\n    text_cols = select_text_columns(df)\n    return df[text_cols].apply(lambda row: \" | \".join(row.astype(str)), axis=1).tolist()\ndef read_file(file: UploadFile, file_type: str) -> pd.DataFrame:\n    contents = file.file.read()\n    if file_type == \"csv\":\n        df = pd.read_csv(io.StringIO(contents.decode(\"utf-8\")))\n    else:\n        df = pd.read_excel(io.BytesIO(contents))\n    return clean_dataframe(df)",
+        "detail": "Backend.app.core.ecom_parsing",
+        "documentation": {}
+    },
+    {
+        "label": "read_file",
+        "kind": 2,
+        "importPath": "Backend.app.core.ecom_parsing",
+        "description": "Backend.app.core.ecom_parsing",
+        "peekOfCode": "def read_file(file: UploadFile, file_type: str) -> pd.DataFrame:\n    contents = file.file.read()\n    if file_type == \"csv\":\n        df = pd.read_csv(io.StringIO(contents.decode(\"utf-8\")))\n    else:\n        df = pd.read_excel(io.BytesIO(contents))\n    return clean_dataframe(df)\ndef pdf_to_dataframe(content: bytes) -> pd.DataFrame:\n    text_data = []\n    doc = fitz.open(stream=content, filetype=\"pdf\")",
+        "detail": "Backend.app.core.ecom_parsing",
+        "documentation": {}
+    },
+    {
+        "label": "pdf_to_dataframe",
+        "kind": 2,
+        "importPath": "Backend.app.core.ecom_parsing",
+        "description": "Backend.app.core.ecom_parsing",
+        "peekOfCode": "def pdf_to_dataframe(content: bytes) -> pd.DataFrame:\n    text_data = []\n    doc = fitz.open(stream=content, filetype=\"pdf\")\n    for page in doc:\n        text_data.append(page.get_text())\n    full_text = \"\\n\".join(text_data)\n    return pd.DataFrame({\"text\": [full_text]})\ndef infer_text_from_row(row: pd.Series) -> str:\n    row = row.dropna()\n    text_parts = []",
+        "detail": "Backend.app.core.ecom_parsing",
+        "documentation": {}
+    },
+    {
+        "label": "infer_text_from_row",
+        "kind": 2,
+        "importPath": "Backend.app.core.ecom_parsing",
+        "description": "Backend.app.core.ecom_parsing",
+        "peekOfCode": "def infer_text_from_row(row: pd.Series) -> str:\n    row = row.dropna()\n    text_parts = []\n    for col, val in row.items():\n        val_str = str(val).strip()\n        if val_str:\n            text_parts.append(f\"{col.capitalize()}: {val_str}\")\n    return \" | \".join(text_parts)\nimport swifter\ndef dataframe_to_text_list(df: pd.DataFrame) -> List[str]:",
+        "detail": "Backend.app.core.ecom_parsing",
+        "documentation": {}
+    },
+    {
+        "label": "dataframe_to_text_list",
+        "kind": 2,
+        "importPath": "Backend.app.core.ecom_parsing",
+        "description": "Backend.app.core.ecom_parsing",
+        "peekOfCode": "def dataframe_to_text_list(df: pd.DataFrame) -> List[str]:\n    def row_to_text(row):\n        return \" | \".join([\n            f\"{col.capitalize()}: {str(val).strip()}\"\n            for col, val in row.items() if pd.notna(val) and str(val).strip()\n        ])\n    return df.swifter.apply(row_to_text, axis=1).tolist()",
+        "detail": "Backend.app.core.ecom_parsing",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "Backend.app.db.database",
+        "description": "Backend.app.db.database",
+        "peekOfCode": "db = client[settings.DB_NAME]\nusers_collection = db[\"users\"]\ncompany_data_collection = db[settings.COMPANY_DATA_COLLECTION]",
+        "detail": "Backend.app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "users_collection",
+        "kind": 5,
+        "importPath": "Backend.app.db.database",
+        "description": "Backend.app.db.database",
+        "peekOfCode": "users_collection = db[\"users\"]\ncompany_data_collection = db[settings.COMPANY_DATA_COLLECTION]",
+        "detail": "Backend.app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "company_data_collection",
+        "kind": 5,
+        "importPath": "Backend.app.db.database",
+        "description": "Backend.app.db.database",
+        "peekOfCode": "company_data_collection = db[settings.COMPANY_DATA_COLLECTION]",
+        "detail": "Backend.app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "Backend.app.models.user",
+        "description": "Backend.app.models.user",
+        "peekOfCode": "class User(BaseModel):\n    email: EmailStr\n    full_name: str = None\n    hashed_password: str =None\n    is_google_user: bool = False",
+        "detail": "Backend.app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "CNNModel",
+        "kind": 6,
+        "importPath": "Backend.app.model_ai.model_def",
+        "description": "Backend.app.model_ai.model_def",
+        "peekOfCode": "class CNNModel(nn.Module):\n    def __init__(self, num_classes=None, dataset_path=None):\n        \"\"\"\n        Initialize the CNN model.\n        Args:\n            num_classes: Number of classes to predict. If None, will be determined from dataset_path\n            dataset_path: Path to the dataset directory. Required if num_classes is None\n        \"\"\"\n        if num_classes is None and dataset_path is None:\n            raise ValueError(\"Either num_classes or dataset_path must be provided\")",
+        "detail": "Backend.app.model_ai.model_def",
+        "documentation": {}
+    },
+    {
+        "label": "get_num_classes",
+        "kind": 2,
+        "importPath": "Backend.app.model_ai.model_def",
+        "description": "Backend.app.model_ai.model_def",
+        "peekOfCode": "def get_num_classes(dataset_path):\n    \"\"\"\n    Determine the number of classes from the dataset directory structure.\n    Assumes dataset is organized in folders where each folder name is a class.\n    \"\"\"\n    if not os.path.exists(dataset_path):\n        raise ValueError(f\"Dataset path {dataset_path} does not exist\")\n    # Get all subdirectories (each representing a class)\n    classes = [d for d in os.listdir(dataset_path) \n              if os.path.isdir(os.path.join(dataset_path, d))]",
+        "detail": "Backend.app.model_ai.model_def",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_channels",
+        "kind": 2,
+        "importPath": "Backend.app.model_ai.model_def",
+        "description": "Backend.app.model_ai.model_def",
+        "peekOfCode": "def calculate_channels(num_classes):\n    \"\"\"\n    Calculate appropriate channel sizes based on number of classes.\n    More classes = more channels to capture complex features.\n    \"\"\"\n    # Base channel size that scales with number of classes\n    base_channels = max(32, min(128, 32 * (1 + math.log2(num_classes))))\n    # Round to nearest power of 2 for computational efficiency\n    base_channels = 2 ** round(math.log2(base_channels))\n    return {",
+        "detail": "Backend.app.model_ai.model_def",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "kind": 2,
+        "importPath": "Backend.app.model_ai.predict",
+        "description": "Backend.app.model_ai.predict",
+        "peekOfCode": "def load_model(model_path, num_classes):\n    model = models.resnet18(pretrained=False)\n    model.fc = nn.Linear(model.fc.in_features, num_classes)\n    model.load_state_dict(torch.load(model_path, map_location=device))\n    model.to(device)\n    model.eval()\n    return model\ndef predict(image_path):",
+        "detail": "Backend.app.model_ai.predict",
+        "documentation": {}
+    },
+    {
+        "label": "predict",
+        "kind": 2,
+        "importPath": "Backend.app.model_ai.predict",
+        "description": "Backend.app.model_ai.predict",
+        "peekOfCode": "def predict(image_path):",
+        "detail": "Backend.app.model_ai.predict",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "Backend.app.model_ai.predict",
+        "description": "Backend.app.model_ai.predict",
+        "peekOfCode": "device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\ndef load_model(model_path, num_classes):\n    model = models.resnet18(pretrained=False)\n    model.fc = nn.Linear(model.fc.in_features, num_classes)\n    model.load_state_dict(torch.load(model_path, map_location=device))\n    model.to(device)\n    model.eval()\n    return model\ndef predict(image_path):",
+        "detail": "Backend.app.model_ai.predict",
+        "documentation": {}
+    },
+    {
+        "label": "read_category",
+        "kind": 2,
+        "importPath": "Backend.app.model_ai.train",
+        "description": "Backend.app.model_ai.train",
+        "peekOfCode": "def read_category(category_path):\n    ext  = os.path.splitext(category_path)[1].lower()\n    if ext == \".csv\":\n        return pd.read_csv(category_path)\n    elif ext in [\".xls\",\".xlsx\"]:\n        return pd.read_excel(category_path)\n    else:\n        raise ValueError(f\"Unsupported file extension: {ext}. Please upload a valid CSV or Excel file.\")\n# Load user dataset\ndef process_and_train_for_company(company_id, image_folder, category_file_path, category_map_json):",
+        "detail": "Backend.app.model_ai.train",
+        "documentation": {}
+    },
+    {
+        "label": "process_and_train_for_company",
+        "kind": 2,
+        "importPath": "Backend.app.model_ai.train",
+        "description": "Backend.app.model_ai.train",
+        "peekOfCode": "def process_and_train_for_company(company_id, image_folder, category_file_path, category_map_json):\n    device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\n    transform = get_transforms()\n    # Load category mapping\n    with open(category_map_json, 'r') as f:\n        category_map = json.load(f)\n        # Read the category file\n        category_df = read_category(category_file_path)\n        # Save a cleaned versoin as CSV \n        cleaned_category_path = os.path.join(f\"client_data/{company_id}\",\"cleaned_category.csv\")",
+        "detail": "Backend.app.model_ai.train",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "Backend.app.model_ai.train",
+        "description": "Backend.app.model_ai.train",
+        "peekOfCode": "device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\n#read category\ndef read_category(category_path):\n    ext  = os.path.splitext(category_path)[1].lower()\n    if ext == \".csv\":\n        return pd.read_csv(category_path)\n    elif ext in [\".xls\",\".xlsx\"]:\n        return pd.read_excel(category_path)\n    else:\n        raise ValueError(f\"Unsupported file extension: {ext}. Please upload a valid CSV or Excel file.\")",
+        "detail": "Backend.app.model_ai.train",
+        "documentation": {}
+    },
+    {
+        "label": "collection_name",
+        "kind": 5,
+        "importPath": "Backend.app.qdrant.collection",
+        "description": "Backend.app.qdrant.collection",
+        "peekOfCode": "collection_name = \"my_documents\"\nvector_size = 768\ndistance_metric = Distance.COSINE\n# Create the collection \nclient.recreate_collection(\n    collection_name=collection_name,\n    vector_config = VectorParams(size=vector_size, distance=distance_metric)\n)",
+        "detail": "Backend.app.qdrant.collection",
+        "documentation": {}
+    },
+    {
+        "label": "vector_size",
+        "kind": 5,
+        "importPath": "Backend.app.qdrant.collection",
+        "description": "Backend.app.qdrant.collection",
+        "peekOfCode": "vector_size = 768\ndistance_metric = Distance.COSINE\n# Create the collection \nclient.recreate_collection(\n    collection_name=collection_name,\n    vector_config = VectorParams(size=vector_size, distance=distance_metric)\n)",
+        "detail": "Backend.app.qdrant.collection",
+        "documentation": {}
+    },
+    {
+        "label": "distance_metric",
+        "kind": 5,
+        "importPath": "Backend.app.qdrant.collection",
+        "description": "Backend.app.qdrant.collection",
+        "peekOfCode": "distance_metric = Distance.COSINE\n# Create the collection \nclient.recreate_collection(\n    collection_name=collection_name,\n    vector_config = VectorParams(size=vector_size, distance=distance_metric)\n)",
+        "detail": "Backend.app.qdrant.collection",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "Backend.app.routes.ai_routes",
+        "description": "Backend.app.routes.ai_routes",
+        "peekOfCode": "file_path = \"app/data/intent_dataset.json\"\nintent_data = load_intent_data(file_path)\nunique_intents = pd.DataFrame(intent_data)['intent'].unique()\nfor intent in unique_intents:\n    async def intent_route(intent_name= intent):\n        filtered_queries = [item[\"query\"] for item in intent_data if item['intent'] == intent_name]\n        return {\"intent\": intent_name, \"queries\":filtered_queries}\n    # Register dynamic route\n    router.add_api_route(f\"/intent/{intent}\",intent_route, methods=['GET'])\n@router.get(\"/test\")",
+        "detail": "Backend.app.routes.ai_routes",
+        "documentation": {}
+    },
+    {
+        "label": "intent_data",
+        "kind": 5,
+        "importPath": "Backend.app.routes.ai_routes",
+        "description": "Backend.app.routes.ai_routes",
+        "peekOfCode": "intent_data = load_intent_data(file_path)\nunique_intents = pd.DataFrame(intent_data)['intent'].unique()\nfor intent in unique_intents:\n    async def intent_route(intent_name= intent):\n        filtered_queries = [item[\"query\"] for item in intent_data if item['intent'] == intent_name]\n        return {\"intent\": intent_name, \"queries\":filtered_queries}\n    # Register dynamic route\n    router.add_api_route(f\"/intent/{intent}\",intent_route, methods=['GET'])\n@router.get(\"/test\")\nasync def test():",
+        "detail": "Backend.app.routes.ai_routes",
+        "documentation": {}
+    },
+    {
+        "label": "unique_intents",
+        "kind": 5,
+        "importPath": "Backend.app.routes.ai_routes",
+        "description": "Backend.app.routes.ai_routes",
+        "peekOfCode": "unique_intents = pd.DataFrame(intent_data)['intent'].unique()\nfor intent in unique_intents:\n    async def intent_route(intent_name= intent):\n        filtered_queries = [item[\"query\"] for item in intent_data if item['intent'] == intent_name]\n        return {\"intent\": intent_name, \"queries\":filtered_queries}\n    # Register dynamic route\n    router.add_api_route(f\"/intent/{intent}\",intent_route, methods=['GET'])\n@router.get(\"/test\")\nasync def test():\n    return {\"message\":\"This is a test route!\"}",
+        "detail": "Backend.app.routes.ai_routes",
+        "documentation": {}
+    },
+    {
+        "label": "LoginRequest",
+        "kind": 6,
+        "importPath": "Backend.app.schemas.auth_schema",
+        "description": "Backend.app.schemas.auth_schema",
+        "peekOfCode": "class LoginRequest(BaseModel):\n    email: EmailStr\n    password: str\nclass LoginResponse(BaseModel):\n    access_token: str\n    token_type: str = \"bearer\"\nclass UserRegister(BaseModel):\n    name:str\n    email: EmailStr\n    password: str",
+        "detail": "Backend.app.schemas.auth_schema",
+        "documentation": {}
+    },
+    {
+        "label": "LoginResponse",
+        "kind": 6,
+        "importPath": "Backend.app.schemas.auth_schema",
+        "description": "Backend.app.schemas.auth_schema",
+        "peekOfCode": "class LoginResponse(BaseModel):\n    access_token: str\n    token_type: str = \"bearer\"\nclass UserRegister(BaseModel):\n    name:str\n    email: EmailStr\n    password: str\n    account_type: AccountType \n    role: UserRole\nclass UserLogin(BaseModel):",
+        "detail": "Backend.app.schemas.auth_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserRegister",
+        "kind": 6,
+        "importPath": "Backend.app.schemas.auth_schema",
+        "description": "Backend.app.schemas.auth_schema",
+        "peekOfCode": "class UserRegister(BaseModel):\n    name:str\n    email: EmailStr\n    password: str\n    account_type: AccountType \n    role: UserRole\nclass UserLogin(BaseModel):\n    email: EmailStr\n    password: str",
+        "detail": "Backend.app.schemas.auth_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserLogin",
+        "kind": 6,
+        "importPath": "Backend.app.schemas.auth_schema",
+        "description": "Backend.app.schemas.auth_schema",
+        "peekOfCode": "class UserLogin(BaseModel):\n    email: EmailStr\n    password: str",
+        "detail": "Backend.app.schemas.auth_schema",
+        "documentation": {}
+    },
+    {
+        "label": "ChatbotCreate",
+        "kind": 6,
+        "importPath": "Backend.app.schemas.chatbot_schema",
+        "description": "Backend.app.schemas.chatbot_schema",
+        "peekOfCode": "class ChatbotCreate(BaseModel):\n    name: str\n    description: Optional[str] = None\n    tenant_id: str  # Chatbots are tied to a tenant\n    intents: Optional[List[str]] = []\nclass ChatbotUpdate(BaseModel):\n    name: Optional[str] = None\n    description: Optional[str] = None\n    intents: Optional[List[str]] = None\nclass ChatbotOut(BaseModel):",
+        "detail": "Backend.app.schemas.chatbot_schema",
+        "documentation": {}
+    },
+    {
+        "label": "ChatbotUpdate",
+        "kind": 6,
+        "importPath": "Backend.app.schemas.chatbot_schema",
+        "description": "Backend.app.schemas.chatbot_schema",
+        "peekOfCode": "class ChatbotUpdate(BaseModel):\n    name: Optional[str] = None\n    description: Optional[str] = None\n    intents: Optional[List[str]] = None\nclass ChatbotOut(BaseModel):\n    id: str = Field(..., alias=\"_id\")\n    name: str\n    description: Optional[str] = None\n    tenant_id: str\n    intents: List[str]",
+        "detail": "Backend.app.schemas.chatbot_schema",
+        "documentation": {}
+    },
+    {
+        "label": "ChatbotOut",
+        "kind": 6,
+        "importPath": "Backend.app.schemas.chatbot_schema",
+        "description": "Backend.app.schemas.chatbot_schema",
+        "peekOfCode": "class ChatbotOut(BaseModel):\n    id: str = Field(..., alias=\"_id\")\n    name: str\n    description: Optional[str] = None\n    tenant_id: str\n    intents: List[str]\n    created_at: datetime\n    updated_at: datetime\n    class Config:\n        populate_by_name = True",
+        "detail": "Backend.app.schemas.chatbot_schema",
+        "documentation": {}
+    },
+    {
+        "label": "TenantCreate",
+        "kind": 6,
+        "importPath": "Backend.app.schemas.tenant_schema",
+        "description": "Backend.app.schemas.tenant_schema",
+        "peekOfCode": "class TenantCreate(BaseModel):\n    name: str\n    contact_email : EmailStr\n    domain: str  # e.g., business-name.com\n    description: Optional[str] = None\nclass TenantUpdate(BaseModel):\n    name: Optional[str] = None\n    domain: Optional[str] = None\n    description: Optional[str] = None\nclass TenantOut(BaseModel):",
+        "detail": "Backend.app.schemas.tenant_schema",
+        "documentation": {}
+    },
+    {
+        "label": "TenantUpdate",
+        "kind": 6,
+        "importPath": "Backend.app.schemas.tenant_schema",
+        "description": "Backend.app.schemas.tenant_schema",
+        "peekOfCode": "class TenantUpdate(BaseModel):\n    name: Optional[str] = None\n    domain: Optional[str] = None\n    description: Optional[str] = None\nclass TenantOut(BaseModel):\n    id: str = Field(..., alias=\"_id\")\n    name: str\n    domain: str\n    description: Optional[str] = None\n    created_at: datetime",
+        "detail": "Backend.app.schemas.tenant_schema",
+        "documentation": {}
+    },
+    {
+        "label": "TenantOut",
+        "kind": 6,
+        "importPath": "Backend.app.schemas.tenant_schema",
+        "description": "Backend.app.schemas.tenant_schema",
+        "peekOfCode": "class TenantOut(BaseModel):\n    id: str = Field(..., alias=\"_id\")\n    name: str\n    domain: str\n    description: Optional[str] = None\n    created_at: datetime\n    updated_at: datetime\n    class Config:\n        populate_by_name = True",
+        "detail": "Backend.app.schemas.tenant_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserRole",
+        "kind": 6,
+        "importPath": "Backend.app.schemas.user_schema",
+        "description": "Backend.app.schemas.user_schema",
+        "peekOfCode": "class UserRole(str, Enum):\n    ADMIN = \"admin\"\n    TENANT = \"tenant\"\nclass AccountType(str, Enum):\n    FREE = \"free\"\n    PAID = \"paid\"\nclass UserCreate(BaseModel):\n    name: str\n    email: EmailStr\n    password: str",
+        "detail": "Backend.app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "AccountType",
+        "kind": 6,
+        "importPath": "Backend.app.schemas.user_schema",
+        "description": "Backend.app.schemas.user_schema",
+        "peekOfCode": "class AccountType(str, Enum):\n    FREE = \"free\"\n    PAID = \"paid\"\nclass UserCreate(BaseModel):\n    name: str\n    email: EmailStr\n    password: str\n    role: UserRole = UserRole.TENANT\n    account_type : AccountType \n    has_paid: bool = False",
+        "detail": "Backend.app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "Backend.app.schemas.user_schema",
+        "description": "Backend.app.schemas.user_schema",
+        "peekOfCode": "class UserCreate(BaseModel):\n    name: str\n    email: EmailStr\n    password: str\n    role: UserRole = UserRole.TENANT\n    account_type : AccountType \n    has_paid: bool = False\n    created_at: datetime = datetime.utcnow()\nclass UserUpdate(BaseModel):\n    name: Optional[str] = None",
+        "detail": "Backend.app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdate",
+        "kind": 6,
+        "importPath": "Backend.app.schemas.user_schema",
+        "description": "Backend.app.schemas.user_schema",
+        "peekOfCode": "class UserUpdate(BaseModel):\n    name: Optional[str] = None\n    email: Optional[EmailStr] = None\n    password: Optional[str] = None\n    role: Optional[UserRole] = None\nclass UserOut(BaseModel):\n    id: str = Field(..., alias=\"_id\")\n    name: str\n    email: EmailStr\n    role: UserRole",
+        "detail": "Backend.app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserOut",
+        "kind": 6,
+        "importPath": "Backend.app.schemas.user_schema",
+        "description": "Backend.app.schemas.user_schema",
+        "peekOfCode": "class UserOut(BaseModel):\n    id: str = Field(..., alias=\"_id\")\n    name: str\n    email: EmailStr\n    role: UserRole\n    tenant_id: Optional[str] = None\n    created_at: datetime\n    updated_at: datetime\n    class Config:\n        populate_by_name = True",
+        "detail": "Backend.app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "WebsiteData",
+        "kind": 6,
+        "importPath": "Backend.app.schemas.website_crawler",
+        "description": "Backend.app.schemas.website_crawler",
+        "peekOfCode": "class WebsiteData(BaseModel):\n    base_url: str",
+        "detail": "Backend.app.schemas.website_crawler",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "kind": 2,
+        "importPath": "Backend.app.utils.utils_ai.dataset",
+        "description": "Backend.app.utils.utils_ai.dataset",
+        "peekOfCode": "def load_model(model_path, num_classes):\n    model = CustomCNN(num_classes=num_classes)\n    model.load_state_dict(torch.load(model_path, map_location=device))\n    model.to(device)\n    model.eval()\n    return model\ndef get_transforms():\n    return transforms.Compose([\n        transforms.Resize((224,224)),\n        transforms.ToTensor(),",
+        "detail": "Backend.app.utils.utils_ai.dataset",
+        "documentation": {}
+    },
+    {
+        "label": "get_transforms",
+        "kind": 2,
+        "importPath": "Backend.app.utils.utils_ai.dataset",
+        "description": "Backend.app.utils.utils_ai.dataset",
+        "peekOfCode": "def get_transforms():\n    return transforms.Compose([\n        transforms.Resize((224,224)),\n        transforms.ToTensor(),\n        # transforms.Normalize(mean=[0.485,0.456,0.406],std=[0.229,0.224,0.225])\n    ])",
+        "detail": "Backend.app.utils.utils_ai.dataset",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "Backend.app.utils.utils_ai.dataset",
+        "description": "Backend.app.utils.utils_ai.dataset",
+        "peekOfCode": "device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\ndef load_model(model_path, num_classes):\n    model = CustomCNN(num_classes=num_classes)\n    model.load_state_dict(torch.load(model_path, map_location=device))\n    model.to(device)\n    model.eval()\n    return model\ndef get_transforms():\n    return transforms.Compose([\n        transforms.Resize((224,224)),",
+        "detail": "Backend.app.utils.utils_ai.dataset",
+        "documentation": {}
+    },
+    {
+        "label": "load_intent_data",
+        "kind": 2,
+        "importPath": "Backend.app.utils.ai_data_load",
+        "description": "Backend.app.utils.ai_data_load",
+        "peekOfCode": "def load_intent_data(file_path: str) -> List[Dict]:\n    \"\"\"\n    Load JSON data from file\n    Args:\n        file_path: Path to JSON file\n    Returns:\n        List of intent dictionaries\n    Raises:\n        FileNotFoundError, json.JSONDecodeError\n    \"\"\"",
+        "detail": "Backend.app.utils.ai_data_load",
+        "documentation": {}
+    },
+    {
+        "label": "show_sample",
+        "kind": 2,
+        "importPath": "Backend.app.utils.ai_data_load",
+        "description": "Backend.app.utils.ai_data_load",
+        "peekOfCode": "def show_sample(data: List[Dict], n: int = 5) -> None:\n    \"\"\"Print first n samples\"\"\"\n    print(f\"First {n} entries:\")\n    for i, item in enumerate(data[:n], 1):\n        print(f\"{i}. {json.dumps(item, indent=2)}\")",
+        "detail": "Backend.app.utils.ai_data_load",
+        "documentation": {}
+    },
+    {
+        "label": "verify_token",
+        "kind": 2,
+        "importPath": "Backend.app.utils.auth",
+        "description": "Backend.app.utils.auth",
+        "peekOfCode": "def verify_token(token:str):\n    try:\n        payload = jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])\n        user_id = payload.get(\"sub\")\n        if user_id is None:\n            raise HTTPException(\n                status_code=status.HTTP_401_UNAUTHORIZED,\n                detail=\"Invalid token\",\n                headers={\"WWW-Authenticate\": \"Bearer\"},\n            )",
+        "detail": "Backend.app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "Backend.app.utils.auth",
+        "description": "Backend.app.utils.auth",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/auth/login\")\ndef verify_token(token:str):\n    try:\n        payload = jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])\n        user_id = payload.get(\"sub\")\n        if user_id is None:\n            raise HTTPException(\n                status_code=status.HTTP_401_UNAUTHORIZED,\n                detail=\"Invalid token\",\n                headers={\"WWW-Authenticate\": \"Bearer\"},",
+        "detail": "Backend.app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "Backend.app.utils.config",
+        "description": "Backend.app.utils.config",
+        "peekOfCode": "class Settings:\n    SECRET_KEY = os.getenv(\"SECRET_KEY\")\n    ALGORITHM = os.getenv(\"ALGORITHM\")\n    ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv(\"ACCESS_TOKEN_EXPIRE_MINUTES\"))\n    MONGODB_URL = os.getenv(\"MONGO_URL\")\n    GOOGLE_CLIENT_ID = os.getenv(\"GOOGLE_CLIENT_ID\")\n    GOOGLE_CLIENT_SECRET = os.getenv(\"GOOGLE_CLIENT_SECRET\")\n    DB_NAME = os.getenv(\"DB_NAME\")\n    COMPANY_DATA_COLLECTION= os.getenv(\"COMPANY_DATA_COLLECTION\")\n    QDRANT_URL = os.getenv(\"QDRANT_URL\")",
+        "detail": "Backend.app.utils.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "Backend.app.utils.config",
+        "description": "Backend.app.utils.config",
+        "peekOfCode": "settings = Settings()",
+        "detail": "Backend.app.utils.config",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "kind": 2,
+        "importPath": "Backend.app.utils.hashing",
+        "description": "Backend.app.utils.hashing",
+        "peekOfCode": "def hash_password(password:str) -> str:\n    return pwd_content.hash(password)\ndef verify_password(plain_password:str, hashed_password: str) -> bool:\n    return pwd_content.verify(plain_password, hashed_password)",
+        "detail": "Backend.app.utils.hashing",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "kind": 2,
+        "importPath": "Backend.app.utils.hashing",
+        "description": "Backend.app.utils.hashing",
+        "peekOfCode": "def verify_password(plain_password:str, hashed_password: str) -> bool:\n    return pwd_content.verify(plain_password, hashed_password)",
+        "detail": "Backend.app.utils.hashing",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_content",
+        "kind": 5,
+        "importPath": "Backend.app.utils.hashing",
+        "description": "Backend.app.utils.hashing",
+        "peekOfCode": "pwd_content = CryptContext(schemes=['bcrypt'], deprecated='auto')\ndef hash_password(password:str) -> str:\n    return pwd_content.hash(password)\ndef verify_password(plain_password:str, hashed_password: str) -> bool:\n    return pwd_content.verify(plain_password, hashed_password)",
+        "detail": "Backend.app.utils.hashing",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "Backend.app.utils.jwt_handler",
+        "description": "Backend.app.utils.jwt_handler",
+        "peekOfCode": "def create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    return jwt.encode(to_encode, settings.SECRET_KEY, algorithm=settings.ALGORITHM)",
+        "detail": "Backend.app.utils.jwt_handler",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Backend.app.main",
+        "description": "Backend.app.main",
+        "peekOfCode": "app = FastAPI()\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # or a list of allowed origins, e.g., [\"http://localhost:3000\"]\n    allow_credentials=True,\n    allow_methods=[\"*\"],  # Allows all HTTP methods, e.g., GET, POST, PUT, DELETE\n    allow_headers=[\"*\"],  # Allows all headers\n)\n# Include the ai_routes router\napp.include_router(ai_router)",
+        "detail": "Backend.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "Tee",
+        "kind": 6,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "class Tee:\n    def __init__(self, file):\n        self.f = file\n    def write(self, what):\n        if self.f is not None:\n            try:\n                self.f.write(what.replace(\"\\n\", \"\\r\\n\"))\n            except OSError:\n                pass\n        tee_f.write(what)",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_root_hkey",
+        "kind": 2,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means\n        # must be HKCU\n        return winreg.HKEY_CURRENT_USER",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "create_shortcut",
+        "kind": 2,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def create_shortcut(\n    path, description, filename, arguments=\"\", workdir=\"\", iconpath=\"\", iconindex=0\n):\n    import pythoncom\n    from win32com.shell import shell\n    ilink = pythoncom.CoCreateInstance(\n        shell.CLSID_ShellLink,\n        None,\n        pythoncom.CLSCTX_INPROC_SERVER,\n        shell.IID_IShellLink,",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_special_folder_path",
+        "kind": 2,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_special_folder_path(path_name):\n    from win32com.shell import shell, shellcon\n    for maybe in \"\"\"\n        CSIDL_COMMON_STARTMENU CSIDL_STARTMENU CSIDL_COMMON_APPDATA\n        CSIDL_LOCAL_APPDATA CSIDL_APPDATA CSIDL_COMMON_DESKTOPDIRECTORY\n        CSIDL_DESKTOPDIRECTORY CSIDL_COMMON_STARTUP CSIDL_STARTUP\n        CSIDL_COMMON_PROGRAMS CSIDL_PROGRAMS CSIDL_PROGRAM_FILES_COMMON\n        CSIDL_PROGRAM_FILES CSIDL_FONTS\"\"\".split():\n        if maybe == path_name:\n            csidl = getattr(shellcon, maybe)",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "CopyTo",
+        "kind": 2,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def CopyTo(desc, src, dest):\n    import win32api\n    import win32con\n    while 1:\n        try:\n            win32api.CopyFile(src, dest, 0)\n            return\n        except win32api.error as details:\n            if details.winerror == 5:  # access denied - user not admin.\n                raise",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "LoadSystemModule",
+        "kind": 2,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def LoadSystemModule(lib_dir, modname):\n    # See if this is a debug build.\n    import importlib.machinery\n    import importlib.util\n    suffix = \"_d\" if \"_d.pyd\" in importlib.machinery.EXTENSION_SUFFIXES else \"\"\n    filename = \"%s%d%d%s.dll\" % (\n        modname,\n        sys.version_info.major,\n        sys.version_info.minor,\n        suffix,",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "SetPyKeyVal",
+        "kind": 2,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def SetPyKeyVal(key_name, value_name, value):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.CreateKey(root_key, key_name)\n        try:\n            winreg.SetValueEx(my_key, value_name, 0, winreg.REG_SZ, value)\n            if verbose:\n                print(f\"-> {root_key_name}\\\\{key_name}[{value_name}]={value!r}\")\n        finally:",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "UnsetPyKeyVal",
+        "kind": 2,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def UnsetPyKeyVal(key_name, value_name, delete_key=False):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.OpenKey(root_key, key_name, 0, winreg.KEY_SET_VALUE)\n        try:\n            winreg.DeleteValue(my_key, value_name)\n            if verbose:\n                print(f\"-> DELETE {root_key_name}\\\\{key_name}[{value_name}]\")\n        finally:",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterCOMObjects",
+        "kind": 2,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterCOMObjects(register=True):\n    import win32com.server.register\n    if register:\n        func = win32com.server.register.RegisterClasses\n    else:\n        func = win32com.server.register.UnregisterClasses\n    flags = {}\n    if not verbose:\n        flags[\"quiet\"] = 1\n    for module, klass_name in com_modules:",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterHelpFile",
+        "kind": 2,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterHelpFile(register=True, lib_dir=None):\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    if register:\n        # Register the .chm help file.\n        chm_file = os.path.join(lib_dir, \"PyWin32.chm\")\n        if os.path.isfile(chm_file):\n            # This isn't recursive, so if 'Help' doesn't exist, we croak\n            SetPyKeyVal(\"Help\", None, None)\n            SetPyKeyVal(\"Help\\\\Pythonwin Reference\", None, chm_file)",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterPythonwin",
+        "kind": 2,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterPythonwin(register=True, lib_dir=None):\n    \"\"\"Add (or remove) Pythonwin to context menu for python scripts.\n    ??? Should probably also add Edit command for pys files also.\n    Also need to remove these keys on uninstall, but there's no function\n    to add registry entries to uninstall log ???\n    \"\"\"\n    import os\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    classes_root = get_root_hkey()",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_shortcuts_folder",
+        "kind": 2,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_shortcuts_folder():\n    if get_root_hkey() == winreg.HKEY_LOCAL_MACHINE:\n        try:\n            fldr = get_special_folder_path(\"CSIDL_COMMON_PROGRAMS\")\n        except OSError:\n            # No CSIDL_COMMON_PROGRAMS on this platform\n            fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")\n    else:\n        # non-admin install - always goes in this user's start menu.\n        fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_system_dir",
+        "kind": 2,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_system_dir():\n    import win32api  # we assume this exists.\n    try:\n        import pythoncom\n        import win32process\n        from win32com.shell import shell, shellcon\n        try:\n            if win32process.IsWow64Process():\n                return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEMX86)\n            return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEM)",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "fixup_dbi",
+        "kind": 2,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def fixup_dbi():\n    # We used to have a dbi.pyd with our .pyd files, but now have a .py file.\n    # If the user didn't uninstall, they will find the .pyd which will cause\n    # problems - so handle that.\n    import win32api\n    import win32con\n    pyd_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi.pyd\")\n    pyd_d_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi_d.pyd\")\n    py_name = os.path.join(os.path.dirname(win32con.__file__), \"dbi.py\")\n    for this_pyd in (pyd_name, pyd_d_name):",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "install",
+        "kind": 2,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def install(lib_dir):\n    import traceback\n    # The .pth file is now installed as a regular file.\n    # Create the .pth file in the site-packages dir, and use only relative paths\n    # We used to write a .pth directly to sys.prefix - clobber it.\n    if os.path.isfile(os.path.join(sys.prefix, \"pywin32.pth\")):\n        os.unlink(os.path.join(sys.prefix, \"pywin32.pth\"))\n    # The .pth may be new and therefore not loaded in this session.\n    # Setup the paths just in case.\n    for name in \"win32 win32\\\\lib Pythonwin\".split():",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "uninstall",
+        "kind": 2,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def uninstall(lib_dir):\n    # First ensure our system modules are loaded from pywin32_system, so\n    # we can remove the ones we copied...\n    LoadSystemModule(lib_dir, \"pywintypes\")\n    LoadSystemModule(lib_dir, \"pythoncom\")\n    try:\n        RegisterCOMObjects(False)\n    except Exception as why:\n        print(f\"Failed to unregister COM objects: {why}\")\n    try:",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verify_destination",
+        "kind": 2,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def verify_destination(location: str) -> str:\n    location = os.path.abspath(location)\n    if not os.path.isdir(location):\n        raise argparse.ArgumentTypeError(\n            f'Path \"{location}\" is not an existing directory!'\n        )\n    return location\ndef main():\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        description=\"\"\"A post-install script for the pywin32 extensions.\n    * Typical usage:\n    > python -m pywin32_postinstall -install\n    * or (shorter but you don't have control over which python environment is used)\n    > pywin32_postinstall -install\n    You need to execute this script, with a '-install' parameter,\n    to ensure the environment is setup correctly to install COM objects, services, etc.",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "tee_f",
+        "kind": 5,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "tee_f = open(\n    os.path.join(\n        tempfile.gettempdir(),  # Send output somewhere so it can be found if necessary...\n        \"pywin32_postinstall.log\",\n    ),\n    \"w\",\n)\nclass Tee:\n    def __init__(self, file):\n        self.f = file",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stderr",
+        "kind": 5,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stderr = Tee(sys.stderr)\nsys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stdout",
+        "kind": 5,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "com_modules",
+        "kind": 5,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "com_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0\n# Verbosity of output messages.",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "silent",
+        "kind": 5,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "silent = 0\n# Verbosity of output messages.\nverbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verbose",
+        "kind": 5,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "verbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "root_key_name",
+        "kind": 5,
+        "importPath": "Backend.venv.Scripts.pywin32_postinstall",
+        "description": "Backend.venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "root_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means\n        # must be HKCU",
+        "detail": "Backend.venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "run_test",
+        "kind": 2,
+        "importPath": "Backend.venv.Scripts.pywin32_testall",
+        "description": "Backend.venv.Scripts.pywin32_testall",
+        "peekOfCode": "def run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()\n    result = subprocess.run(cmd, check=False, cwd=dirname)\n    print(f\"*** Test script '{script}' exited with {result.returncode}\")\n    sys.stdout.flush()\n    if result.returncode:",
+        "detail": "Backend.venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "find_and_run",
+        "kind": 2,
+        "importPath": "Backend.venv.Scripts.pywin32_testall",
+        "description": "Backend.venv.Scripts.pywin32_testall",
+        "peekOfCode": "def find_and_run(possible_locations, extras):\n    for maybe in possible_locations:\n        if os.path.isfile(maybe):\n            run_test(maybe, extras)\n            break\n    else:\n        raise RuntimeError(\n            \"Failed to locate a test script in one of %s\" % possible_locations\n        )\ndef main():",
+        "detail": "Backend.venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Backend.venv.Scripts.pywin32_testall",
+        "description": "Backend.venv.Scripts.pywin32_testall",
+        "peekOfCode": "def main():\n    import argparse\n    code_directories = [project_root] + site_packages\n    parser = argparse.ArgumentParser(\n        description=\"A script to trigger tests in all subprojects of PyWin32.\"\n    )\n    parser.add_argument(\n        \"-no-user-interaction\",\n        default=False,\n        action=\"store_true\",",
+        "detail": "Backend.venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "project_root",
+        "kind": 5,
+        "importPath": "Backend.venv.Scripts.pywin32_testall",
+        "description": "Backend.venv.Scripts.pywin32_testall",
+        "peekOfCode": "project_root = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))\nsite_packages = [site.getusersitepackages()] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras",
+        "detail": "Backend.venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "site_packages",
+        "kind": 5,
+        "importPath": "Backend.venv.Scripts.pywin32_testall",
+        "description": "Backend.venv.Scripts.pywin32_testall",
+        "peekOfCode": "site_packages = [site.getusersitepackages()] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)",
+        "detail": "Backend.venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "failures",
+        "kind": 5,
+        "importPath": "Backend.venv.Scripts.pywin32_testall",
+        "description": "Backend.venv.Scripts.pywin32_testall",
+        "peekOfCode": "failures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()",
+        "detail": "Backend.venv.Scripts.pywin32_testall",
+        "documentation": {}
+    }
+]

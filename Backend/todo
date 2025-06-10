@@ -1,67 +1,8 @@
-Phase 1 – Initial Setup (Done or Ongoing)
- Setup FastAPI backend
-
- Implement file upload endpoint /upload_file
-
- Parse product files into DataFrame
-
- Convert product rows into text
-
- Generate embeddings using SentenceTransformer
-
- Create FAISS index from embeddings
-
- Implement search endpoint /search
-
-🧩 Phase 2 – Basic Chatbot Integration
- Create /chat endpoint to handle user queries via POST
-
- Implement logic to return top product results in response
-
- Build a basic frontend chat interface (React/Next.js)
-
- Connect frontend chat to /chat endpoint
-
- Display bot responses and related products in chat
-
-🎯 Phase 3 – Intent Detection & Session Handling
- Build simple intent classifier (search, buy, compare, etc.)
-
- Store chat context/history per session (in memory or Redis)
-
- Extract product-related entities from user input (NER)
-
- Customize responses based on detected intent
-
-🤖 Phase 4 – Smart Conversations with LLM
- Integrate OpenAI / Hugging Face model for conversational tone
-
- Chain retrieval + generation using LangChain
-
- Add fallback response if no relevant product found
-
- Use prompt templates to keep the bot helpful & consistent
-
-🛒 Phase 5 – E-commerce Flow Features
- Add product metadata like image, price, stock
-
- Return metadata in chat responses
-
- Implement "Add to Cart" and "View Cart" logic
-
- Simulate a checkout experience
-
- Add filtering options (price, brand, category)
-
- Show “Recommended products” based on similarity
-
-🌐 Phase 6 – Deployment & Real-time Chat
- Enable WebSocket for real-time chat (FastAPI/Starlette)
-
- Deploy backend (Railway / Render / AWS)
-
- Deploy frontend (Vercel / Netlify)
-
- Setup custom domain (optional)
-
- Integrate with WhatsApp / Messenger (optional)
+CSV Upload :	Users upload CSV files containing image URLs and metadata.
+Schema Detection:	System detects CSV headers and attempts to auto-match with your internal schema.
+User Column Mapping:	If auto-matching is incomplete or inaccurate, users map their CSV columns to your schema.
+Data Normalization:	CSV data is transformed to your internal format using the mappings.
+Validation & Error Handling:	Validate transformed data, report errors, and request corrections if needed.
+Image Download & Processing:	Download images from URLs and preprocess them for model training.
+Live Model Training	Train/update: ML model based on the normalized dataset.
+API & Frontend	REST API and frontend UI for uploads, mappings, validation, and training status.

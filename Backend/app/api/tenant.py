@@ -22,3 +22,4 @@ async def approve_tenant_route(tenant_id:str):
         return await approve_tenant(tenant_id)
     except Exception as e:
         raise HTTPException(status_code=404, detail=str(e))
+    
