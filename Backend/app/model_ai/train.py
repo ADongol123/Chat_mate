@@ -6,7 +6,7 @@ from torchvision import datasets, transforms
 from app.model_ai.model_def import CNNModel
 from utils.dataset import ProdductImageDataset
 import os
-from Backend.app.model_ai.model_def import calculate_channels 
+from app.model_ai.model_def import calculate_channels 
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -16,7 +16,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 #read category
 def read_category(category_path):
     ext  = os.path.splitext(category_path)[1].lower()
-    if ext == ".csv":
+    if ext == ".csv":   
         return pd.read_csv(category_path)
     elif ext in [".xls",".xlsx"]:
         return pd.read_excel(category_path)

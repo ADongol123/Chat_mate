@@ -21,5 +21,5 @@ def load_model(model_path, num_classes):
 
 
 
-def predict(image_path):
+
     

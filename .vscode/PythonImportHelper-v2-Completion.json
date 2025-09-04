@@ -160,6 +160,22 @@
         "documentation": {}
     },
     {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -633,6 +649,22 @@
         "documentation": {}
     },
     {
+        "label": "clean_llm_json",
+        "importPath": "app.utils.ecom_helpers",
+        "description": "app.utils.ecom_helpers",
+        "isExtraImport": true,
+        "detail": "app.utils.ecom_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "load_prompt",
+        "importPath": "app.utils.ecom_helpers",
+        "description": "app.utils.ecom_helpers",
+        "isExtraImport": true,
+        "detail": "app.utils.ecom_helpers",
+        "documentation": {}
+    },
+    {
         "label": "pandas",
         "kind": 6,
         "isExtraImport": true,
@@ -853,6 +885,22 @@
         "documentation": {}
     },
     {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -1058,6 +1106,14 @@
         "documentation": {}
     },
     {
+        "label": "classify_intent_with_mistral",
+        "importPath": "app.core.intent_classification",
+        "description": "app.core.intent_classification",
+        "isExtraImport": true,
+        "detail": "app.core.intent_classification",
+        "documentation": {}
+    },
+    {
         "label": "TenantCreate",
         "importPath": "app.schemas.tenant_schema",
         "description": "app.schemas.tenant_schema",
@@ -1190,6 +1246,54 @@
         "importPath": "swifter",
         "description": "swifter",
         "detail": "swifter",
+        "documentation": {}
+    },
+    {
+        "label": "TextBlob",
+        "importPath": "textblob",
+        "description": "textblob",
+        "isExtraImport": true,
+        "detail": "textblob",
+        "documentation": {}
+    },
+    {
+        "label": "clean_llm_json",
+        "importPath": "Backend.app.utils.ecom_helpers",
+        "description": "Backend.app.utils.ecom_helpers",
+        "isExtraImport": true,
+        "detail": "Backend.app.utils.ecom_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "load_prompt",
+        "importPath": "Backend.app.utils.ecom_helpers",
+        "description": "Backend.app.utils.ecom_helpers",
+        "isExtraImport": true,
+        "detail": "Backend.app.utils.ecom_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "retry",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "stop_after_attempt",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "wait_exponential",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
         "documentation": {}
     },
     {
@@ -1611,6 +1715,14 @@
         "documentation": {}
     },
     {
+        "label": "app",
+        "importPath": "app.api.intent_classification_routes",
+        "description": "app.api.intent_classification_routes",
+        "isExtraImport": true,
+        "detail": "app.api.intent_classification_routes",
+        "documentation": {}
+    },
+    {
         "label": "argparse",
         "kind": 6,
         "isExtraImport": true,
@@ -1764,24 +1876,6 @@
         "documentation": {}
     },
     {
-        "label": "load_prompt",
-        "kind": 2,
-        "importPath": "Backend.app.api.ecom_routes",
-        "description": "Backend.app.api.ecom_routes",
-        "peekOfCode": "def load_prompt(file_path, query, docs_text):\n    with open(file_path, 'r') as file:\n        prompt_template = file.read()\n    # print(prompt_template.format(query=query, docs_text=docs_text),\"prompt_template\")\n    return prompt_template.format(query=query, docs_text=docs_text)\ndef clean_llm_json(text: str):\n    import re, json\n    # Remove fences if they exist\n    cleaned = re.sub(r\"```json|```\", \"\", text).strip()\n    # Extract only the first {...} JSON block",
-        "detail": "Backend.app.api.ecom_routes",
-        "documentation": {}
-    },
-    {
-        "label": "clean_llm_json",
-        "kind": 2,
-        "importPath": "Backend.app.api.ecom_routes",
-        "description": "Backend.app.api.ecom_routes",
-        "peekOfCode": "def clean_llm_json(text: str):\n    import re, json\n    # Remove fences if they exist\n    cleaned = re.sub(r\"```json|```\", \"\", text).strip()\n    # Extract only the first {...} JSON block\n    match = re.search(r\"\\{.*\\}\", cleaned, re.DOTALL)\n    if not match:\n        raise ValueError(\"No JSON object found in response\")\n    json_str = match.group(0)\n    return json.loads(json_str)",
-        "detail": "Backend.app.api.ecom_routes",
-        "documentation": {}
-    },
-    {
         "label": "rerank_with_mistral",
         "kind": 2,
         "importPath": "Backend.app.api.ecom_routes",
@@ -1912,7 +2006,7 @@
         "kind": 5,
         "importPath": "Backend.app.api.ecom_routes",
         "description": "Backend.app.api.ecom_routes",
-        "peekOfCode": "image_feature_extractor = ResNetFeatureExtractor(resnet_model, output_dim=768)\nimage_feature_extractor.eval() # Set to evaluation mode\nimage_transform = transforms.Compose([\n    transforms.Resize((224, 224)),\n    transforms.ToTensor(),\n    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n])\ndef load_prompt(file_path, query, docs_text):\n    with open(file_path, 'r') as file:\n        prompt_template = file.read()",
+        "peekOfCode": "image_feature_extractor = ResNetFeatureExtractor(resnet_model, output_dim=768)\nimage_feature_extractor.eval() # Set to evaluation mode\nimage_transform = transforms.Compose([\n    transforms.Resize((224, 224)),\n    transforms.ToTensor(),\n    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n])\ndef rerank_with_mistral(query, candidates): \n    docs_text = \"\\n\\n\".join(\n        [f\"Doc {i+1}: {doc.page_content}\\nMetadata: {doc.metadata}\" ",
         "detail": "Backend.app.api.ecom_routes",
         "documentation": {}
     },
@@ -1921,8 +2015,17 @@
         "kind": 5,
         "importPath": "Backend.app.api.ecom_routes",
         "description": "Backend.app.api.ecom_routes",
-        "peekOfCode": "image_transform = transforms.Compose([\n    transforms.Resize((224, 224)),\n    transforms.ToTensor(),\n    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n])\ndef load_prompt(file_path, query, docs_text):\n    with open(file_path, 'r') as file:\n        prompt_template = file.read()\n    # print(prompt_template.format(query=query, docs_text=docs_text),\"prompt_template\")\n    return prompt_template.format(query=query, docs_text=docs_text)",
+        "peekOfCode": "image_transform = transforms.Compose([\n    transforms.Resize((224, 224)),\n    transforms.ToTensor(),\n    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n])\ndef rerank_with_mistral(query, candidates): \n    docs_text = \"\\n\\n\".join(\n        [f\"Doc {i+1}: {doc.page_content}\\nMetadata: {doc.metadata}\" \n         for i, (doc, score) in enumerate(candidates)]\n    )",
         "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Backend.app.api.intent_classification-routes",
+        "description": "Backend.app.api.intent_classification-routes",
+        "peekOfCode": "app = APIRouter(prefix=\"/intent\", tags=[\"E-commerce_intent_classification\"])\n@app.post(\"/classify\")\nasync def classify_intent(query: str):\n    try:\n        classification = classify_intent_with_mistral(query)\n    except Exception as e:\n        raise HTTPException(status_code=500, detail=f\"Error classifying intent: {str(e)}\")\n    return classification",
+        "detail": "Backend.app.api.intent_classification-routes",
         "documentation": {}
     },
     {
@@ -2061,6 +2164,24 @@
         "documentation": {}
     },
     {
+        "label": "ClassificationError",
+        "kind": 6,
+        "importPath": "Backend.app.core.intent_classification",
+        "description": "Backend.app.core.intent_classification",
+        "peekOfCode": "class ClassificationError(Exception):\n    pass\n@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))\ndef classify_intent_with_mistral(query: str) -> Dict[str, Any]:\n    \"\"\"\n    Classify query using Mistral LLM. Return JSON with intent, entities and confidence.\n    \"\"\"\n    if not query or query.isspace():\n        return {\"intent\": \"unknown\", \"key_entities\": [], \"confidence\": 1.0}\n    # Preprocess query",
+        "detail": "Backend.app.core.intent_classification",
+        "documentation": {}
+    },
+    {
+        "label": "classify_intent_with_mistral",
+        "kind": 2,
+        "importPath": "Backend.app.core.intent_classification",
+        "description": "Backend.app.core.intent_classification",
+        "peekOfCode": "def classify_intent_with_mistral(query: str) -> Dict[str, Any]:\n    \"\"\"\n    Classify query using Mistral LLM. Return JSON with intent, entities and confidence.\n    \"\"\"\n    if not query or query.isspace():\n        return {\"intent\": \"unknown\", \"key_entities\": [], \"confidence\": 1.0}\n    # Preprocess query\n    query = query.lower().strip()\n    query = str(TextBlob(query).correct())\n    # Detect non-English",
+        "detail": "Backend.app.core.intent_classification",
+        "documentation": {}
+    },
+    {
         "label": "db",
         "kind": 5,
         "importPath": "Backend.app.db.database",
@@ -2128,16 +2249,7 @@
         "kind": 2,
         "importPath": "Backend.app.model_ai.predict",
         "description": "Backend.app.model_ai.predict",
-        "peekOfCode": "def load_model(model_path, num_classes):\n    model = models.resnet18(pretrained=False)\n    model.fc = nn.Linear(model.fc.in_features, num_classes)\n    model.load_state_dict(torch.load(model_path, map_location=device))\n    model.to(device)\n    model.eval()\n    return model\ndef predict(image_path):",
-        "detail": "Backend.app.model_ai.predict",
-        "documentation": {}
-    },
-    {
-        "label": "predict",
-        "kind": 2,
-        "importPath": "Backend.app.model_ai.predict",
-        "description": "Backend.app.model_ai.predict",
-        "peekOfCode": "def predict(image_path):",
+        "peekOfCode": "def load_model(model_path, num_classes):\n    model = models.resnet18(pretrained=False)\n    model.fc = nn.Linear(model.fc.in_features, num_classes)\n    model.load_state_dict(torch.load(model_path, map_location=device))\n    model.to(device)\n    model.eval()\n    return model",
         "detail": "Backend.app.model_ai.predict",
         "documentation": {}
     },
@@ -2146,7 +2258,7 @@
         "kind": 5,
         "importPath": "Backend.app.model_ai.predict",
         "description": "Backend.app.model_ai.predict",
-        "peekOfCode": "device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\ndef load_model(model_path, num_classes):\n    model = models.resnet18(pretrained=False)\n    model.fc = nn.Linear(model.fc.in_features, num_classes)\n    model.load_state_dict(torch.load(model_path, map_location=device))\n    model.to(device)\n    model.eval()\n    return model\ndef predict(image_path):",
+        "peekOfCode": "device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\ndef load_model(model_path, num_classes):\n    model = models.resnet18(pretrained=False)\n    model.fc = nn.Linear(model.fc.in_features, num_classes)\n    model.load_state_dict(torch.load(model_path, map_location=device))\n    model.to(device)\n    model.eval()\n    return model",
         "detail": "Backend.app.model_ai.predict",
         "documentation": {}
     },
@@ -2463,6 +2575,24 @@
         "description": "Backend.app.utils.config",
         "peekOfCode": "settings = Settings()",
         "detail": "Backend.app.utils.config",
+        "documentation": {}
+    },
+    {
+        "label": "load_prompt",
+        "kind": 2,
+        "importPath": "Backend.app.utils.ecom_helpers",
+        "description": "Backend.app.utils.ecom_helpers",
+        "peekOfCode": "def load_prompt(file_path, query, docs_text):\n    with open(file_path, 'r') as file:\n        prompt_template = file.read()\n    return prompt_template.format(query=query, docs_text=docs_text)\ndef clean_llm_json(text: str):\n    import re, json\n    # Remove fences if they exist\n    cleaned = re.sub(r\"```json|```\", \"\", text).strip()\n    # Extract only the first {...} JSON block\n    match = re.search(r\"\\{.*\\}\", cleaned, re.DOTALL)",
+        "detail": "Backend.app.utils.ecom_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "clean_llm_json",
+        "kind": 2,
+        "importPath": "Backend.app.utils.ecom_helpers",
+        "description": "Backend.app.utils.ecom_helpers",
+        "peekOfCode": "def clean_llm_json(text: str):\n    import re, json\n    # Remove fences if they exist\n    cleaned = re.sub(r\"```json|```\", \"\", text).strip()\n    # Extract only the first {...} JSON block\n    match = re.search(r\"\\{.*\\}\", cleaned, re.DOTALL)\n    if not match:\n        raise ValueError(\"No JSON object found in response\")\n    json_str = match.group(0)\n    return json.loads(json_str)",
+        "detail": "Backend.app.utils.ecom_helpers",
         "documentation": {}
     },
     {

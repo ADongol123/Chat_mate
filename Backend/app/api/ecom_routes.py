@@ -1,4 +1,5 @@
 from pydoc import doc
+from app.utils.ecom_helpers import clean_llm_json, load_prompt
 from fastapi import FastAPI, UploadFile, File, APIRouter, HTTPException, Query, Depends, Form
 import pandas as pd
 from sentence_transformers import SentenceTransformer
@@ -79,26 +80,9 @@ image_transform = transforms.Compose([
     transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 ])
 
-def load_prompt(file_path, query, docs_text):
-    with open(file_path, 'r') as file:
-        prompt_template = file.read()
-    # print(prompt_template.format(query=query, docs_text=docs_text),"prompt_template")
-    return prompt_template.format(query=query, docs_text=docs_text)
 
 
-def clean_llm_json(text: str):
-    import re, json
 
-    # Remove fences if they exist
-    cleaned = re.sub(r"```json|```", "", text).strip()
-
-    # Extract only the first {...} JSON block
-    match = re.search(r"\{.*\}", cleaned, re.DOTALL)
-    if not match:
-        raise ValueError("No JSON object found in response")
-
-    json_str = match.group(0)
-    return json.loads(json_str)
 
 
 
