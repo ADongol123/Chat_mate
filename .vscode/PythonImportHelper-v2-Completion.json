@@ -256,6 +256,14 @@
         "documentation": {}
     },
     {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
         "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -617,6 +625,14 @@
         "documentation": {}
     },
     {
+        "label": "doc",
+        "importPath": "pydoc",
+        "description": "pydoc",
+        "isExtraImport": true,
+        "detail": "pydoc",
+        "documentation": {}
+    },
+    {
         "label": "pandas",
         "kind": 6,
         "isExtraImport": true,
@@ -746,6 +762,46 @@
         "description": "qdrant_client",
         "isExtraImport": true,
         "detail": "qdrant_client",
+        "documentation": {}
+    },
+    {
+        "label": "VectorParams",
+        "importPath": "qdrant_client.models",
+        "description": "qdrant_client.models",
+        "isExtraImport": true,
+        "detail": "qdrant_client.models",
+        "documentation": {}
+    },
+    {
+        "label": "Distance",
+        "importPath": "qdrant_client.models",
+        "description": "qdrant_client.models",
+        "isExtraImport": true,
+        "detail": "qdrant_client.models",
+        "documentation": {}
+    },
+    {
+        "label": "PointStruct",
+        "importPath": "qdrant_client.models",
+        "description": "qdrant_client.models",
+        "isExtraImport": true,
+        "detail": "qdrant_client.models",
+        "documentation": {}
+    },
+    {
+        "label": "VectorParams",
+        "importPath": "qdrant_client.models",
+        "description": "qdrant_client.models",
+        "isExtraImport": true,
+        "detail": "qdrant_client.models",
+        "documentation": {}
+    },
+    {
+        "label": "Distance",
+        "importPath": "qdrant_client.models",
+        "description": "qdrant_client.models",
+        "isExtraImport": true,
+        "detail": "qdrant_client.models",
         "documentation": {}
     },
     {
@@ -925,11 +981,27 @@
         "documentation": {}
     },
     {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
         "label": "io",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "io",
         "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
         "detail": "io",
         "documentation": {}
     },
@@ -948,6 +1020,41 @@
         "importPath": "torch",
         "description": "torch",
         "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "UnexpectedResponse",
+        "importPath": "qdrant_client.http.exceptions",
+        "description": "qdrant_client.http.exceptions",
+        "isExtraImport": true,
+        "detail": "qdrant_client.http.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ollama",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ollama",
+        "description": "ollama",
+        "detail": "ollama",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
         "documentation": {}
     },
     {
@@ -1136,15 +1243,6 @@
         "documentation": {}
     },
     {
-        "label": "json",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
-        "documentation": {}
-    },
-    {
         "label": "get_transform",
         "importPath": "utils.transforms",
         "description": "utils.transforms",
@@ -1202,19 +1300,29 @@
         "documentation": {}
     },
     {
-        "label": "VectorParams",
-        "importPath": "qdrant_client.models",
-        "description": "qdrant_client.models",
+        "label": "csv",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "qdrant_client.models",
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
         "documentation": {}
     },
     {
-        "label": "Distance",
-        "importPath": "qdrant_client.models",
-        "description": "qdrant_client.models",
+        "label": "uuid",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "qdrant_client.models",
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "get_clip_text_embedding",
+        "importPath": "app.utils.image_clip_utils",
+        "description": "app.utils.image_clip_utils",
+        "isExtraImport": true,
+        "detail": "app.utils.image_clip_utils",
         "documentation": {}
     },
     {
@@ -1428,6 +1536,24 @@
         "documentation": {}
     },
     {
+        "label": "open_clip",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "open_clip",
+        "description": "open_clip",
+        "detail": "open_clip",
+        "documentation": {}
+    },
+    {
+        "label": "torchvision.transforms",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
         "label": "uvicorn",
         "kind": 6,
         "isExtraImport": true,
@@ -1638,11 +1764,56 @@
         "documentation": {}
     },
     {
+        "label": "load_prompt",
+        "kind": 2,
+        "importPath": "Backend.app.api.ecom_routes",
+        "description": "Backend.app.api.ecom_routes",
+        "peekOfCode": "def load_prompt(file_path, query, docs_text):\n    with open(file_path, 'r') as file:\n        prompt_template = file.read()\n    # print(prompt_template.format(query=query, docs_text=docs_text),\"prompt_template\")\n    return prompt_template.format(query=query, docs_text=docs_text)\ndef clean_llm_json(text: str):\n    import re, json\n    # Remove fences if they exist\n    cleaned = re.sub(r\"```json|```\", \"\", text).strip()\n    # Extract only the first {...} JSON block",
+        "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "clean_llm_json",
+        "kind": 2,
+        "importPath": "Backend.app.api.ecom_routes",
+        "description": "Backend.app.api.ecom_routes",
+        "peekOfCode": "def clean_llm_json(text: str):\n    import re, json\n    # Remove fences if they exist\n    cleaned = re.sub(r\"```json|```\", \"\", text).strip()\n    # Extract only the first {...} JSON block\n    match = re.search(r\"\\{.*\\}\", cleaned, re.DOTALL)\n    if not match:\n        raise ValueError(\"No JSON object found in response\")\n    json_str = match.group(0)\n    return json.loads(json_str)",
+        "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "rerank_with_mistral",
+        "kind": 2,
+        "importPath": "Backend.app.api.ecom_routes",
+        "description": "Backend.app.api.ecom_routes",
+        "peekOfCode": "def rerank_with_mistral(query, candidates): \n    docs_text = \"\\n\\n\".join(\n        [f\"Doc {i+1}: {doc.page_content}\\nMetadata: {doc.metadata}\" \n         for i, (doc, score) in enumerate(candidates)]\n    )\n    prompt = load_prompt(\"app/prompt/rerank_prompt.txt\", query, docs_text)\n    print(prompt,\"docs_text\")\n    response = ollama.chat(\n        model=\"mistral\",\n        messages=[{\"role\": \"user\", \"content\": prompt}]",
+        "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
         "label": "get_image_embedding",
         "kind": 2,
         "importPath": "Backend.app.api.ecom_routes",
         "description": "Backend.app.api.ecom_routes",
         "peekOfCode": "def get_image_embedding(image_bytes):\n    \"\"\"\n    Generates a vector embedding for an image, projected to 768 dimensions.\n    Args:\n        image_bytes: Bytes of the image file.\n    Returns:\n        A list representing the 768-dimensional image embedding.\n    \"\"\"\n    try:\n        image = Image.open(io.BytesIO(image_bytes)).convert(\"RGB\")",
+        "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "clearEmail",
+        "kind": 2,
+        "importPath": "Backend.app.api.ecom_routes",
+        "description": "Backend.app.api.ecom_routes",
+        "peekOfCode": "def clearEmail(user_id: str):\n    return re.sub(f\"[^a-zA-Z0-9_]\",\"_\",user_id)\ndef safe_collection_exists(client, collection_name: str) -> bool:\n    try:\n        client.get_collection(collection_name)\n        return True\n    except UnexpectedResponse as e:\n        if \"404\" in str(e):\n            return False\n        raise",
+        "detail": "Backend.app.api.ecom_routes",
+        "documentation": {}
+    },
+    {
+        "label": "safe_collection_exists",
+        "kind": 2,
+        "importPath": "Backend.app.api.ecom_routes",
+        "description": "Backend.app.api.ecom_routes",
+        "peekOfCode": "def safe_collection_exists(client, collection_name: str) -> bool:\n    try:\n        client.get_collection(collection_name)\n        return True\n    except UnexpectedResponse as e:\n        if \"404\" in str(e):\n            return False\n        raise\n@app.post(\"/upload_file\")\nasync def upload_file(file: UploadFile = File(...), user_id: str = Depends(get_current_user)):",
         "detail": "Backend.app.api.ecom_routes",
         "documentation": {}
     },
@@ -1741,7 +1912,7 @@
         "kind": 5,
         "importPath": "Backend.app.api.ecom_routes",
         "description": "Backend.app.api.ecom_routes",
-        "peekOfCode": "image_feature_extractor = ResNetFeatureExtractor(resnet_model, output_dim=768)\nimage_feature_extractor.eval() # Set to evaluation mode\nimage_transform = transforms.Compose([\n    transforms.Resize((224, 224)),\n    transforms.ToTensor(),\n    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n])\ndef get_image_embedding(image_bytes):\n    \"\"\"\n    Generates a vector embedding for an image, projected to 768 dimensions.",
+        "peekOfCode": "image_feature_extractor = ResNetFeatureExtractor(resnet_model, output_dim=768)\nimage_feature_extractor.eval() # Set to evaluation mode\nimage_transform = transforms.Compose([\n    transforms.Resize((224, 224)),\n    transforms.ToTensor(),\n    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n])\ndef load_prompt(file_path, query, docs_text):\n    with open(file_path, 'r') as file:\n        prompt_template = file.read()",
         "detail": "Backend.app.api.ecom_routes",
         "documentation": {}
     },
@@ -1750,7 +1921,7 @@
         "kind": 5,
         "importPath": "Backend.app.api.ecom_routes",
         "description": "Backend.app.api.ecom_routes",
-        "peekOfCode": "image_transform = transforms.Compose([\n    transforms.Resize((224, 224)),\n    transforms.ToTensor(),\n    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n])\ndef get_image_embedding(image_bytes):\n    \"\"\"\n    Generates a vector embedding for an image, projected to 768 dimensions.\n    Args:\n        image_bytes: Bytes of the image file.",
+        "peekOfCode": "image_transform = transforms.Compose([\n    transforms.Resize((224, 224)),\n    transforms.ToTensor(),\n    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n])\ndef load_prompt(file_path, query, docs_text):\n    with open(file_path, 'r') as file:\n        prompt_template = file.read()\n    # print(prompt_template.format(query=query, docs_text=docs_text),\"prompt_template\")\n    return prompt_template.format(query=query, docs_text=docs_text)",
         "detail": "Backend.app.api.ecom_routes",
         "documentation": {}
     },
@@ -2007,11 +2178,20 @@
         "documentation": {}
     },
     {
+        "label": "upload_csv_to_qdrant",
+        "kind": 2,
+        "importPath": "Backend.app.qdrant.collection",
+        "description": "Backend.app.qdrant.collection",
+        "peekOfCode": "def upload_csv_to_qdrant(csv_path: str, user_id: str):\n    collection_name = f\"user_{user_id.replace('-', '_')}\"\n    # Create collection (512 = CLIP ViT-B-32 vector size)\n    if not qdrant.collection_exists(collection_name):\n        qdrant.recreate_collection(\n            collection_name=collection_name,\n            vectors_config=VectorParams(size=512, distance=Distance.COSINE)\n        )\n    points = []\n    with open(csv_path, newline='', encoding='utf-8') as csvfile:",
+        "detail": "Backend.app.qdrant.collection",
+        "documentation": {}
+    },
+    {
         "label": "collection_name",
         "kind": 5,
         "importPath": "Backend.app.qdrant.collection",
         "description": "Backend.app.qdrant.collection",
-        "peekOfCode": "collection_name = \"my_documents\"\nvector_size = 768\ndistance_metric = Distance.COSINE\n# Create the collection \nclient.recreate_collection(\n    collection_name=collection_name,\n    vector_config = VectorParams(size=vector_size, distance=distance_metric)\n)",
+        "peekOfCode": "collection_name = \"my_documents\"\nvector_size = 768\ndistance_metric = Distance.COSINE\n# # Create the collection \n# client.recreate_collection(\n#     collection_name=collection_name,\n#     vector_config = VectorParams(size=vector_size, distance=distance_metric)\n# )\ndef upload_csv_to_qdrant(csv_path: str, user_id: str):\n    collection_name = f\"user_{user_id.replace('-', '_')}\"",
         "detail": "Backend.app.qdrant.collection",
         "documentation": {}
     },
@@ -2020,7 +2200,7 @@
         "kind": 5,
         "importPath": "Backend.app.qdrant.collection",
         "description": "Backend.app.qdrant.collection",
-        "peekOfCode": "vector_size = 768\ndistance_metric = Distance.COSINE\n# Create the collection \nclient.recreate_collection(\n    collection_name=collection_name,\n    vector_config = VectorParams(size=vector_size, distance=distance_metric)\n)",
+        "peekOfCode": "vector_size = 768\ndistance_metric = Distance.COSINE\n# # Create the collection \n# client.recreate_collection(\n#     collection_name=collection_name,\n#     vector_config = VectorParams(size=vector_size, distance=distance_metric)\n# )\ndef upload_csv_to_qdrant(csv_path: str, user_id: str):\n    collection_name = f\"user_{user_id.replace('-', '_')}\"\n    # Create collection (512 = CLIP ViT-B-32 vector size)",
         "detail": "Backend.app.qdrant.collection",
         "documentation": {}
     },
@@ -2029,7 +2209,7 @@
         "kind": 5,
         "importPath": "Backend.app.qdrant.collection",
         "description": "Backend.app.qdrant.collection",
-        "peekOfCode": "distance_metric = Distance.COSINE\n# Create the collection \nclient.recreate_collection(\n    collection_name=collection_name,\n    vector_config = VectorParams(size=vector_size, distance=distance_metric)\n)",
+        "peekOfCode": "distance_metric = Distance.COSINE\n# # Create the collection \n# client.recreate_collection(\n#     collection_name=collection_name,\n#     vector_config = VectorParams(size=vector_size, distance=distance_metric)\n# )\ndef upload_csv_to_qdrant(csv_path: str, user_id: str):\n    collection_name = f\"user_{user_id.replace('-', '_')}\"\n    # Create collection (512 = CLIP ViT-B-32 vector size)\n    if not qdrant.collection_exists(collection_name):",
         "detail": "Backend.app.qdrant.collection",
         "documentation": {}
     },
@@ -2310,6 +2490,51 @@
         "description": "Backend.app.utils.hashing",
         "peekOfCode": "pwd_content = CryptContext(schemes=['bcrypt'], deprecated='auto')\ndef hash_password(password:str) -> str:\n    return pwd_content.hash(password)\ndef verify_password(plain_password:str, hashed_password: str) -> bool:\n    return pwd_content.verify(plain_password, hashed_password)",
         "detail": "Backend.app.utils.hashing",
+        "documentation": {}
+    },
+    {
+        "label": "get_clip_image_embedding",
+        "kind": 2,
+        "importPath": "Backend.app.utils.image_clip_utils",
+        "description": "Backend.app.utils.image_clip_utils",
+        "peekOfCode": "def get_clip_image_embedding(image_bytes: bytes) -> list:\n    image = Image.open(BytesIO(image_bytes)).convert(\"RGB\")\n    image_tensor = preprocess(image).unsqueeze(0).to(device)\n    with torch.no_grad():\n        image_features = model.encode_image(image_tensor)\n    return image_features[0].cpu().tolist()\ndef get_clip_text_embedding(text: str) -> list:\n    tokenized = tokenizer([text]).to(device)\n    with torch.no_grad():\n        text_features = model.encode_text(tokenized)",
+        "detail": "Backend.app.utils.image_clip_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_clip_text_embedding",
+        "kind": 2,
+        "importPath": "Backend.app.utils.image_clip_utils",
+        "description": "Backend.app.utils.image_clip_utils",
+        "peekOfCode": "def get_clip_text_embedding(text: str) -> list:\n    tokenized = tokenizer([text]).to(device)\n    with torch.no_grad():\n        text_features = model.encode_text(tokenized)\n    return text_features[0].cpu().tolist()",
+        "detail": "Backend.app.utils.image_clip_utils",
+        "documentation": {}
+    },
+    {
+        "label": "tokenizer",
+        "kind": 5,
+        "importPath": "Backend.app.utils.image_clip_utils",
+        "description": "Backend.app.utils.image_clip_utils",
+        "peekOfCode": "tokenizer = open_clip.get_tokenizer('ViT-B-32')\ndevice = \"cuda\" if torch.cuda.is_available() else \"cpu\"\nmodel = model.to(device)\ndef get_clip_image_embedding(image_bytes: bytes) -> list:\n    image = Image.open(BytesIO(image_bytes)).convert(\"RGB\")\n    image_tensor = preprocess(image).unsqueeze(0).to(device)\n    with torch.no_grad():\n        image_features = model.encode_image(image_tensor)\n    return image_features[0].cpu().tolist()\ndef get_clip_text_embedding(text: str) -> list:",
+        "detail": "Backend.app.utils.image_clip_utils",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "Backend.app.utils.image_clip_utils",
+        "description": "Backend.app.utils.image_clip_utils",
+        "peekOfCode": "device = \"cuda\" if torch.cuda.is_available() else \"cpu\"\nmodel = model.to(device)\ndef get_clip_image_embedding(image_bytes: bytes) -> list:\n    image = Image.open(BytesIO(image_bytes)).convert(\"RGB\")\n    image_tensor = preprocess(image).unsqueeze(0).to(device)\n    with torch.no_grad():\n        image_features = model.encode_image(image_tensor)\n    return image_features[0].cpu().tolist()\ndef get_clip_text_embedding(text: str) -> list:\n    tokenized = tokenizer([text]).to(device)",
+        "detail": "Backend.app.utils.image_clip_utils",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "Backend.app.utils.image_clip_utils",
+        "description": "Backend.app.utils.image_clip_utils",
+        "peekOfCode": "model = model.to(device)\ndef get_clip_image_embedding(image_bytes: bytes) -> list:\n    image = Image.open(BytesIO(image_bytes)).convert(\"RGB\")\n    image_tensor = preprocess(image).unsqueeze(0).to(device)\n    with torch.no_grad():\n        image_features = model.encode_image(image_tensor)\n    return image_features[0].cpu().tolist()\ndef get_clip_text_embedding(text: str) -> list:\n    tokenized = tokenizer([text]).to(device)\n    with torch.no_grad():",
+        "detail": "Backend.app.utils.image_clip_utils",
         "documentation": {}
     },
     {

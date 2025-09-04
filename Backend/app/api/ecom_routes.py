@@ -1,3 +1,4 @@
+from pydoc import doc
 from fastapi import FastAPI, UploadFile, File, APIRouter, HTTPException, Query, Depends, Form
 import pandas as pd
 from sentence_transformers import SentenceTransformer
@@ -13,6 +14,7 @@ import os
 import asyncio
 import traceback
 from qdrant_client import QdrantClient
+from qdrant_client.models import VectorParams, Distance
 from concurrent.futures import ThreadPoolExecutor
 from app.utils.config import settings
 from typing import Optional # Import Optional for the new endpoint
@@ -20,6 +22,11 @@ from torchvision import models, transforms # For image processing
 from PIL import Image # For image processing
 import io # For image processing
 import torch # For image processing
+import re
+from qdrant_client.http.exceptions import UnexpectedResponse
+import ollama
+from fastapi.responses import JSONResponse
+import json
 
 executor = ThreadPoolExecutor(max_workers=os.cpu_count() * 2)
 
@@ -72,6 +79,46 @@ image_transform = transforms.Compose([
     transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 ])
 
+def load_prompt(file_path, query, docs_text):
+    with open(file_path, 'r') as file:
+        prompt_template = file.read()
+    # print(prompt_template.format(query=query, docs_text=docs_text),"prompt_template")
+    return prompt_template.format(query=query, docs_text=docs_text)
+
+
+def clean_llm_json(text: str):
+    import re, json
+
+    # Remove fences if they exist
+    cleaned = re.sub(r"```json|```", "", text).strip()
+
+    # Extract only the first {...} JSON block
+    match = re.search(r"\{.*\}", cleaned, re.DOTALL)
+    if not match:
+        raise ValueError("No JSON object found in response")
+
+    json_str = match.group(0)
+    return json.loads(json_str)
+
+
+
+
+def rerank_with_mistral(query, candidates): 
+    docs_text = "\n\n".join(
+        [f"Doc {i+1}: {doc.page_content}\nMetadata: {doc.metadata}" 
+         for i, (doc, score) in enumerate(candidates)]
+    )
+    prompt = load_prompt("app/prompt/rerank_prompt.txt", query, docs_text)
+    print(prompt,"docs_text")
+    
+    response = ollama.chat(
+        model="mistral",
+        messages=[{"role": "user", "content": prompt}]
+    )
+    
+    raw_output =  response["message"]["content"]
+    parsed_output = clean_llm_json(raw_output)
+    return parsed_output
 
 def get_image_embedding(image_bytes):
     """
@@ -112,11 +159,26 @@ async def get_user_embeddings_from_db(user_id: str):
 
     return texts, embeddings, metadata
 
+
+def clearEmail(user_id: str):
+    return re.sub(f"[^a-zA-Z0-9_]","_",user_id)
+
+def safe_collection_exists(client, collection_name: str) -> bool:
+    try:
+        client.get_collection(collection_name)
+        return True
+    except UnexpectedResponse as e:
+        if "404" in str(e):
+            return False
+        raise
+    
+    
 @app.post("/upload_file")
 async def upload_file(file: UploadFile = File(...), user_id: str = Depends(get_current_user)):
     try:
         file_type = detect_file_type(file)
         df = read_file(file, file_type)
+        print(df, "This is the df")
     except Exception as e:
         raise HTTPException(status_code=400, detail=f"File parsing failed: {str(e)}")
 
@@ -125,23 +187,37 @@ async def upload_file(file: UploadFile = File(...), user_id: str = Depends(get_c
 
     product_texts = dataframe_to_text_list(df)
     product_metadata = df.to_dict(orient="records")
-
     docs = [Document(page_content=text, metadata=product_metadata[i]) for i, text in enumerate(product_texts)]
+
     collection_name = f"user_{user_id.replace('-', '_')}"
+    print(collection_name, "This is the collection name")
 
     try:
-        if qdrant_client.collection_exists(collection_name):
-            qdrant_client.delete_collection(collection_name)
+        # ✅ dynamically infer embedding size
+        sample_vector = accurate_embedding_model.embed_query("test")
+        VECTOR_SIZE = len(sample_vector)
 
+        # ✅ create only if not exists
+        if not safe_collection_exists(qdrant_client, collection_name):
+            qdrant_client.create_collection(
+                collection_name=collection_name,
+                vectors_config=VectorParams(
+                    size=VECTOR_SIZE,
+                    distance=Distance.COSINE
+                )
+            )
+
+        # ✅ Add docs to Qdrant
         vectorstore = Qdrant.from_documents(
             docs,
-            accurate_embedding_model, # Using accurate_embedding_model for text embeddings
+            accurate_embedding_model,
             url=QDRANT_URL,
             api_key=QDRANT_API_KEY,
             collection_name=collection_name
         )
-
+        print(vectorstore, "This is the vectorstore")
         user_vectorstore_cache[user_id] = vectorstore
+
     except Exception as e:
         traceback.print_exc()
         raise HTTPException(status_code=500, detail=f"Vector index creation failed: {str(e)}")
@@ -167,7 +243,6 @@ async def upload_file(file: UploadFile = File(...), user_id: str = Depends(get_c
         "records": len(product_texts),
         "columns_used": select_text_columns(df)
     }
-
 # Existing text-only search endpoint (GET)
 @app.get("/search/text") # Renamed for clarity to distinguish from image/hybrid search
 async def search_text(query: str = Query(..., min_length=3), k: int = 5, user_id: str = Depends(get_current_user)):
@@ -185,21 +260,29 @@ async def search_text(query: str = Query(..., min_length=3), k: int = 5, user_id
                 embeddings=accurate_embedding_model
             )
             user_vectorstore_cache[user_id] = vectorstore
+        # Step 1: rerive more candidates than needed
+        items = await run_in_executor(lambda: vectorstore.similarity_search_with_score(query, k=k))
+        # Step 2: Mistral filter
+        selected = rerank_with_mistral(query, items)
+        return selected
+        # results = []
+        # for item in selected:
+        #     print(item,"ITEM")# assuming (Document, score)
+            # doc, score = item
+            # results.append({
+            #     "rank": idx,
+            #     "content": doc.page_content if hasattr(doc, "page_content") else str(doc),
+            #     "metadata": getattr(doc, "metadata", {}),
+            #     "score": score
+            # })
 
-        results = await run_in_executor(
-            lambda: vectorstore.similarity_search(query, k=k)
-        )
+        return JSONResponse(content={"results": results, "query": query})
 
     except HTTPException as e:
         raise e
     except Exception as e:
         traceback.print_exc()
         raise HTTPException(status_code=500, detail=f"Text search failed: {str(e)}")
-
-    return {"results": [
-        {"text": doc.page_content, "metadata": doc.metadata} for doc in results
-    ]}
-
 
 # --- NEW IMAGE/HYBRID SEARCH ENDPOINT (POST) ---
 @app.post("/search/image")
