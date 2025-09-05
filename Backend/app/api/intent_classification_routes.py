@@ -16,4 +16,3 @@ def classify_intent(request: IntentRequest):
         raise HTTPException(status_code=500, detail=f"Error classifying intent: {str(e)}")
         
     return classification
-                    

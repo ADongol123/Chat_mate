@@ -12,7 +12,7 @@ def load_classification_prompt(template_path: str, query: str) -> str:
     """
     Load intent classification prompt template and inject the query.
     """
-    with open(template_path, "r") as f:
+    with open(template_path, "r",  encoding="utf-8") as f:
         template = f.read()
     # Replace placeholder {query} in your prompt
     return template.replace("{query}", query)
@@ -45,7 +45,7 @@ def classify_intent_with_mistral(query: str) -> Dict[str, Any]:
     
     # Load prompt
     prompt = load_classification_prompt("app/prompt/intent_classification.txt", query)
-
+    print("Prompt sent to Mistral:", prompt)
     try:
         response = ollama.chat(
             model="mistral",

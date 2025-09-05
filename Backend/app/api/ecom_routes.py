@@ -28,7 +28,7 @@ from qdrant_client.http.exceptions import UnexpectedResponse
 import ollama
 from fastapi.responses import JSONResponse
 import json
-
+from app.utils.rerank_helper import rerank_with_mistral
 executor = ThreadPoolExecutor(max_workers=os.cpu_count() * 2)
 
 class Query_values(BaseModel):
@@ -81,28 +81,6 @@ image_transform = transforms.Compose([
 ])
 
 
-
-
-
-
-
-
-def rerank_with_mistral(query, candidates): 
-    docs_text = "\n\n".join(
-        [f"Doc {i+1}: {doc.page_content}\nMetadata: {doc.metadata}" 
-         for i, (doc, score) in enumerate(candidates)]
-    )
-    prompt = load_prompt("app/prompt/rerank_prompt.txt", query, docs_text)
-    print(prompt,"docs_text")
-    
-    response = ollama.chat(
-        model="mistral",
-        messages=[{"role": "user", "content": prompt}]
-    )
-    
-    raw_output =  response["message"]["content"]
-    parsed_output = clean_llm_json(raw_output)
-    return parsed_output
 
 def get_image_embedding(image_bytes):
     """
@@ -249,19 +227,6 @@ async def search_text(query: str = Query(..., min_length=3), k: int = 5, user_id
         # Step 2: Mistral filter
         selected = rerank_with_mistral(query, items)
         return selected
-        # results = []
-        # for item in selected:
-        #     print(item,"ITEM")# assuming (Document, score)
-            # doc, score = item
-            # results.append({
-            #     "rank": idx,
-            #     "content": doc.page_content if hasattr(doc, "page_content") else str(doc),
-            #     "metadata": getattr(doc, "metadata", {}),
-            #     "score": score
-            # })
-
-        return JSONResponse(content={"results": results, "query": query})
-
     except HTTPException as e:
         raise e
     except Exception as e:
