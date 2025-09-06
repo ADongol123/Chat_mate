@@ -14,7 +14,7 @@ QDRANT_URL = settings.QDRANT_URL
 QDRANT_API_KEY = settings.QDRANT_API_KEY
 qdrant_client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
 
-def get_vectorstore(user_id: str, embeddings):
+def get_vectorstore(user_id: str):
     collection_name = f"user_{user_id.replace('-','_')}"
     
     if user_id in user_vectorstore_cache:
