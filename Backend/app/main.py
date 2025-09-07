@@ -16,6 +16,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.api.ecom_routes import app as ecom_routes
 from app.api.intent_classification_routes import app as classify_intent
 from app.api.chat.chat_routes import app as chat_routes
+
 app = FastAPI()
     
 

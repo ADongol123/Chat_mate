@@ -4,7 +4,8 @@ from app.utils.jwt_handler import get_current_user
 from datetime import datetime
 from typing import List
 from bson import ObjectId
-from Backend.app.db.collection import chatbots_collection
+from app.db.collection import chatbots_collection
+
 app = APIRouter(prefix="/chatbots",tags=['Chatbots'])
 
 
@@ -29,14 +30,13 @@ async def create_chatbot(payload:ChatbotCreate, user = Depends(get_current_user)
 # ----------------------------------------------------------------
 @app.get("/", response_model=List[Chatbot])
 async def get_chatbots(chatbot_id: str, user=Depends(get_current_user)):
-    chatbot = await chatbots_collection.find_one({"_id": ObjectId(chatbot_id), "usesr_email":user['email']}).to_list(100)
-    for c in chatbot:
-        c["id"] = c["_id"]
+    chatbot = await chatbots_collection.find_one({"_id": ObjectId(chatbot_id), "user_email":user['email']})
+    if not chatbot:
+        return []
 
-    return chatbot
-
-
-
+    chatbot["id"] = str(chatbot["_id"])
+    
+    return [chatbot]
 
 
 #-----------------------------------------------------
@@ -80,7 +80,7 @@ async def update_chatbot(chatbot_id: str, payload: ChatBotBase, user=Depends(get
 #------------------------------------------------------------
 # Delete Chatbot
 #-----------------------------------------------------------------
-@app.roputer("/{chatbot}")
+@app.delete("/{chatbot}")
 async def delete_chatbot(chatbot_id: str, user = Depends(get_current_user)):
     results = await chatbots_collection.delete_one({"_id":ObjectId(chatbot_id), "user_email":user["email"]})
     if results.delete_count == 0:

@@ -249,4 +249,4 @@ const LoginPage = () =>  {
 
 
 
-export default  withAuth(LoginPage)
+export default  LoginPage 
