@@ -15,7 +15,7 @@ from app.api.tenant import app as tenant_routes
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.ecom_routes import app as ecom_routes
 from app.api.intent_classification_routes import app as classify_intent
-
+from app.api.chat.chat_routes import app as chat_routes
 app = FastAPI()
     
 
@@ -34,7 +34,7 @@ app.include_router(auth_routes)
 app.include_router(tenant_routes)
 app.include_router(ecom_routes)
 app.include_router(classify_intent)
-
+app.include_router(chat_routes)
 
 @app.get("/")
 async def root():

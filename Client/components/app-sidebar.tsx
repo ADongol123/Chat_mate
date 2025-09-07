@@ -1,25 +1,30 @@
-"use client"
-
-import Link from "next/link"
-import { usePathname } from "next/navigation"
+"use client";
 import {
   Bot,
   Building2,
-  ChevronDown,
-  FileText,
-  Home,
-  LayoutDashboard,
-  LogOut,
-  MessageSquare,
-  Settings,
+  BarChart3,
   Users,
+  Settings,
+  Database,
+  MessageSquare,
+  Plus,
+  Home,
+  Shield,
+  CreditCard,
   HelpCircle,
+  LogOut,
   User,
-} from "lucide-react"
+  SidebarClose,
+  Menu,
+} from "lucide-react";
+
 import {
   Sidebar,
   SidebarContent,
   SidebarFooter,
+  SidebarGroup,
+  SidebarGroupContent,
+  SidebarGroupLabel,
   SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
@@ -27,211 +32,304 @@ import {
   SidebarMenuSub,
   SidebarMenuSubButton,
   SidebarMenuSubItem,
-  SidebarTrigger,
-} from "@/components/ui/sidebar"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Button } from "@/components/ui/button"
+  useSidebar,
+} from "@/components/ui/sidebar";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from "@/components/ui/dropdown-menu";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Badge } from "@/components/ui/badge";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@/components/ui/collapsible";
+
+const data = {
+  user: {
+    name: "John Doe",
+    email: "john@example.com",
+    avatar: "/professional-man.png",
+  },
+  navMain: [
+    {
+      title: "Dashboard",
+      url: "/dashboard",
+      icon: Home,
+    },
+    {
+      title: "Chatbots",
+      icon: Bot,
+      items: [
+        {
+          title: "All Chatbots",
+          url: "/chatbots",
+        },
+        {
+          title: "Create New",
+          url: "/chatbots/create",
+        },
+        {
+          title: "Templates",
+          url: "/chatbots/templates",
+        },
+      ],
+    },
+    {
+      title: "Conversations",
+      url: "/conversations",
+      icon: MessageSquare,
+    },
+    {
+      title: "Analytics",
+      url: "/analytics",
+      icon: BarChart3,
+    },
+    {
+      title: "Data Sources",
+      url: "/data",
+      icon: Database,
+    },
+  ],
+  navAdmin: [
+    {
+      title: "Admin Dashboard",
+      url: "/admin/dashboard",
+      icon: Shield,
+    },
+    {
+      title: "Tenants",
+      url: "/admin/tenants",
+      icon: Building2,
+    },
+    {
+      title: "Users",
+      url: "/admin/users",
+      icon: Users,
+    },
+  ],
+  navSecondary: [
+    {
+      title: "Settings",
+      url: "/settings",
+      icon: Settings,
+    },
+    {
+      title: "Billing",
+      url: "/billing",
+      icon: CreditCard,
+    },
+    {
+      title: "Support",
+      url: "/support",
+      icon: HelpCircle,
+    },
+  ],
+};
 
 export function AppSidebar() {
-  const pathname = usePathname()
+  const pathname = usePathname();
+  const { state, toggleSidebar } = useSidebar(); // 👈 get toggle function
 
-  // Determine if we're on an admin page
-  const isAdmin = pathname?.startsWith("/admin")
-
-  // Skip rendering sidebar on auth pages
-  if (pathname === "/login" || pathname === "/signup" || pathname === "/") {
-    return null
+  // Don't show sidebar on landing page
+  if (pathname === "/") {
+    return null;
   }
 
   return (
-    <Sidebar>
-      <SidebarHeader className="border-b px-4 py-2">
-        <div className="flex items-center gap-2">
-          <Bot className="h-6 w-6 text-primary" />
-          <span className="text-lg font-bold">ChatBotSaaS</span>
-          <SidebarTrigger className="ml-auto md:hidden" />
-        </div>
-      </SidebarHeader>
-      <SidebarContent>{isAdmin ? <AdminSidebarContent /> : <TenantSidebarContent />}</SidebarContent>
-      <SidebarFooter className="border-t p-4">
-        <div className="flex items-center gap-3">
-          <Avatar className="h-9 w-9">
-            <AvatarImage src="/placeholder.svg?height=36&width=36" alt="User" />
-            <AvatarFallback>
-              <User className="h-4 w-4" />
-            </AvatarFallback>
-          </Avatar>
-          <div className="flex flex-1 flex-col overflow-hidden">
-            <p className="truncate text-sm font-medium">{isAdmin ? "Admin User" : "Business User"}</p>
-            <p className="truncate text-xs text-muted-foreground">
-              {isAdmin ? "admin@example.com" : "business@example.com"}
-            </p>
+    <>
+      {/* 🔥 Persistent Floating Menu Button */}
+      {state === "collapsed" && (
+        <button
+          onClick={toggleSidebar}
+          className="fixed top-4 left-4 z-50 flex items-center justify-center rounded-lg bg-sidebar p-2 shadow-md hover:bg-sidebar-accent"
+        >
+          <Menu className="h-5 w-5" />
+        </button>
+      )}
+      <Sidebar>
+        <SidebarHeader>
+          <div className="flex items-center justify-between">
+            <SidebarMenu>
+              <SidebarMenuItem>
+                <SidebarMenuButton size="lg" asChild>
+                  <Link href="/dashboard">
+                    <div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+                      <Bot className="size-4" />
+                    </div>
+                    <div className="flex flex-col gap-0.5 leading-none">
+                      <span className="font-semibold">Chatmate</span>
+                      <span className="text-xs text-muted-foreground">
+                        AI Platform
+                      </span>
+                    </div>
+                    <Badge variant="secondary" className="ml-auto">
+                      Pro
+                    </Badge>
+                  </Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+            </SidebarMenu>
+
+            {/* Close Button inside Sidebar */}
+            <button
+              onClick={toggleSidebar}
+              className="ml-2 flex items-center justify-center rounded-lg p-2 hover:bg-sidebar-accent"
+            >
+              <SidebarClose className="h-5 w-5" />
+            </button>
           </div>
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button variant="ghost" size="icon" className="h-8 w-8">
-                <ChevronDown className="h-4 w-4" />
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end">
-              <DropdownMenuItem>
-                <User className="mr-2 h-4 w-4" />
-                <span>Profile</span>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Settings className="mr-2 h-4 w-4" />
-                <span>Settings</span>
-              </DropdownMenuItem>
-              <DropdownMenuSeparator />
-              <DropdownMenuItem>
-                <LogOut className="mr-2 h-4 w-4" />
-                <span>Log out</span>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-        </div>
-      </SidebarFooter>
-    </Sidebar>
-  )
-}
+        </SidebarHeader>
 
-function AdminSidebarContent() {
-  const pathname = usePathname()
+        <SidebarContent>
+          <SidebarGroup>
+            <SidebarGroupLabel>Platform</SidebarGroupLabel>
+            <SidebarGroupContent>
+              <SidebarMenu>
+                {data.navMain.map((item) => (
+                  <SidebarMenuItem key={item.title}>
+                    {item.items ? (
+                      <Collapsible defaultOpen className="group/collapsible">
+                        <CollapsibleTrigger asChild>
+                          <SidebarMenuButton>
+                            <item.icon />
+                            <span>{item.title}</span>
+                            <Plus className="ml-auto transition-transform group-data-[state=open]/collapsible:rotate-45" />
+                          </SidebarMenuButton>
+                        </CollapsibleTrigger>
+                        <CollapsibleContent>
+                          <SidebarMenuSub>
+                            {item.items.map((subItem) => (
+                              <SidebarMenuSubItem key={subItem.title}>
+                                <SidebarMenuSubButton
+                                  asChild
+                                  isActive={pathname === subItem.url}
+                                >
+                                  <Link href={subItem.url}>
+                                    <span>{subItem.title}</span>
+                                  </Link>
+                                </SidebarMenuSubButton>
+                              </SidebarMenuSubItem>
+                            ))}
+                          </SidebarMenuSub>
+                        </CollapsibleContent>
+                      </Collapsible>
+                    ) : (
+                      <SidebarMenuButton
+                        asChild
+                        isActive={pathname === item.url}
+                      >
+                        <Link href={item.url}>
+                          <item.icon />
+                          <span>{item.title}</span>
+                        </Link>
+                      </SidebarMenuButton>
+                    )}
+                  </SidebarMenuItem>
+                ))}
+              </SidebarMenu>
+            </SidebarGroupContent>
+          </SidebarGroup>
 
-  return (
-    <SidebarMenu>
-      <SidebarMenuItem>
-        <SidebarMenuButton asChild isActive={pathname === "/admin"}>
-          <Link href="/admin">
-            <Home />
-            <span>Home</span>
-          </Link>
-        </SidebarMenuButton>
-      </SidebarMenuItem>
-      <SidebarMenuItem>
-        <SidebarMenuButton asChild isActive={pathname === "/admin/dashboard"}>
-          <Link href="/admin/dashboard">
-            <LayoutDashboard />
-            <span>Dashboard</span>
-          </Link>
-        </SidebarMenuButton>
-      </SidebarMenuItem>
-      <SidebarMenuItem>
-        <SidebarMenuButton asChild isActive={pathname?.startsWith("/admin/tenants")}>
-          <Link href="/admin/tenants">
-            <Building2 />
-            <span>Tenants</span>
-          </Link>
-        </SidebarMenuButton>
-      </SidebarMenuItem>
-      <SidebarMenuItem>
-        <SidebarMenuButton asChild isActive={pathname?.startsWith("/admin/users")}>
-          <Link href="/admin/users">
-            <Users />
-            <span>Users</span>
-          </Link>
-        </SidebarMenuButton>
-      </SidebarMenuItem>
-      <SidebarMenuItem>
-        <SidebarMenuButton asChild isActive={pathname?.startsWith("/admin/logs")}>
-          <Link href="/admin/logs">
-            <FileText />
-            <span>Logs</span>
-          </Link>
-        </SidebarMenuButton>
-      </SidebarMenuItem>
-      <SidebarMenuItem>
-        <SidebarMenuButton asChild isActive={pathname === "/admin/settings"}>
-          <Link href="/admin/settings">
-            <Settings />
-            <span>Settings</span>
-          </Link>
-        </SidebarMenuButton>
-      </SidebarMenuItem>
-      <SidebarMenuItem>
-        <SidebarMenuButton asChild isActive={pathname === "/admin/help"}>
-          <Link href="/admin/help">
-            <HelpCircle />
-            <span>Help Center</span>
-          </Link>
-        </SidebarMenuButton>
-      </SidebarMenuItem>
-    </SidebarMenu>
-  )
-}
+          <SidebarGroup>
+            <SidebarGroupLabel>Administration</SidebarGroupLabel>
+            <SidebarGroupContent>
+              <SidebarMenu>
+                {data.navAdmin.map((item) => (
+                  <SidebarMenuItem key={item.title}>
+                    <SidebarMenuButton asChild isActive={pathname === item.url}>
+                      <Link href={item.url}>
+                        <item.icon />
+                        <span>{item.title}</span>
+                      </Link>
+                    </SidebarMenuButton>
+                  </SidebarMenuItem>
+                ))}
+              </SidebarMenu>
+            </SidebarGroupContent>
+          </SidebarGroup>
 
-function TenantSidebarContent() {
-  const pathname = usePathname()
+          <SidebarGroup>
+            <SidebarGroupLabel>Account</SidebarGroupLabel>
+            <SidebarGroupContent>
+              <SidebarMenu>
+                {data.navSecondary.map((item) => (
+                  <SidebarMenuItem key={item.title}>
+                    <SidebarMenuButton asChild isActive={pathname === item.url}>
+                      <Link href={item.url}>
+                        <item.icon />
+                        <span>{item.title}</span>
+                      </Link>
+                    </SidebarMenuButton>
+                  </SidebarMenuItem>
+                ))}
+              </SidebarMenu>
+            </SidebarGroupContent>
+          </SidebarGroup>
+        </SidebarContent>
 
-  return (
-    <SidebarMenu>
-      <SidebarMenuItem>
-        <SidebarMenuButton asChild isActive={pathname === "/dashboard"}>
-          <Link href="/dashboard">
-            <Home />
-            <span>Home</span>
-          </Link>
-        </SidebarMenuButton>
-      </SidebarMenuItem>
-      <SidebarMenuItem>
-        <SidebarMenuButton asChild isActive={pathname?.startsWith("/chatbots")}>
-          <Link href="/chatbots">
-            <Bot />
-            <span>My Chatbots</span>
-          </Link>
-        </SidebarMenuButton>
-        <SidebarMenuSub>
-          <SidebarMenuSubItem>
-            <SidebarMenuSubButton asChild isActive={pathname === "/chatbots/create"}>
-              <Link href="/chatbots/create">Create New</Link>
-            </SidebarMenuSubButton>
-          </SidebarMenuSubItem>
-          <SidebarMenuSubItem>
-            <SidebarMenuSubButton asChild isActive={pathname === "/chatbots/templates"}>
-              <Link href="/chatbots/templates">Templates</Link>
-            </SidebarMenuSubButton>
-          </SidebarMenuSubItem>
-        </SidebarMenuSub>
-      </SidebarMenuItem>
-      <SidebarMenuItem>
-        <SidebarMenuButton asChild isActive={pathname?.startsWith("/data")}>
-          <Link href="/data">
-            <FileText />
-            <span>Data Collection</span>
-          </Link>
-        </SidebarMenuButton>
-      </SidebarMenuItem>
-      <SidebarMenuItem>
-        <SidebarMenuButton asChild isActive={pathname?.startsWith("/conversations")}>
-          <Link href="/conversations">
-            <MessageSquare />
-            <span>Conversations</span>
-          </Link>
-        </SidebarMenuButton>
-      </SidebarMenuItem>
-      <SidebarMenuItem>
-        <SidebarMenuButton asChild isActive={pathname === "/settings"}>
-          <Link href="/settings">
-            <Settings />
-            <span>Settings</span>
-          </Link>
-        </SidebarMenuButton>
-      </SidebarMenuItem>
-      <SidebarMenuItem>
-        <SidebarMenuButton asChild isActive={pathname === "/help"}>
-          <Link href="/help">
-            <HelpCircle />
-            <span>Help Center</span>
-          </Link>
-        </SidebarMenuButton>
-      </SidebarMenuItem>
-    </SidebarMenu>
-  )
+        <SidebarFooter>
+          <SidebarMenu>
+            <SidebarMenuItem>
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <SidebarMenuButton
+                    size="lg"
+                    className="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground"
+                  >
+                    <Avatar className="h-8 w-8 rounded-lg">
+                      <AvatarImage
+                        src={data.user.avatar || "/placeholder.svg"}
+                        alt={data.user.name}
+                      />
+                      <AvatarFallback className="rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+                        {data.user.name
+                          .split(" ")
+                          .map((n) => n[0])
+                          .join("")}
+                      </AvatarFallback>
+                    </Avatar>
+                    <div className="grid flex-1 text-left text-sm leading-tight">
+                      <span className="truncate font-semibold">
+                        {data.user.name}
+                      </span>
+                      <span className="truncate text-xs">
+                        {data.user.email}
+                      </span>
+                    </div>
+                  </SidebarMenuButton>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent
+                  className="w-[--radix-dropdown-menu-trigger-width] min-w-56 rounded-lg"
+                  side={state === "collapsed" ? "right" : "bottom"}
+                  align="end"
+                  sideOffset={4}
+                >
+                  <DropdownMenuItem>
+                    <User className="mr-2 h-4 w-4" />
+                    Account
+                  </DropdownMenuItem>
+                  <DropdownMenuItem>
+                    <Settings className="mr-2 h-4 w-4" />
+                    Settings
+                  </DropdownMenuItem>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuItem>
+                    <LogOut className="mr-2 h-4 w-4" />
+                    Log out
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </SidebarMenuItem>
+          </SidebarMenu>
+        </SidebarFooter>
+      </Sidebar>
+    </>
+  );
 }

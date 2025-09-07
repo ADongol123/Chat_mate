@@ -10,3 +10,4 @@ client  = AsyncIOMotorClient(settings.MONGODB_URL)
 db = client[settings.DB_NAME]
 users_collection = db["users"]
 company_data_collection = db[settings.COMPANY_DATA_COLLECTION]
+

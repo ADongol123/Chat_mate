@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException, Depends, Request,Form
+from fastapi import APIRouter, HTTPException, Depends, Request,Form, Response
 from fastapi.responses import RedirectResponse
 from pydantic import BaseModel, EmailStr
 from app.utils.hashing import hash_password, verify_password
@@ -19,6 +19,12 @@ router = APIRouter()
 
 # router.include_router(auth_routes.router)
 # OAuth configuration
+
+class LoginRequest(BaseModel):
+    username: str
+    password: str
+
+
 config_data = {
     "GOOGLE_CLIENT_ID": settings.GOOGLE_CLIENT_ID,
     "GOOGLE_CLIENT_SECRET": settings.GOOGLE_CLIENT_SECRET,
@@ -64,12 +70,23 @@ async def register(user: RegisterModel):
 
 
 @router.post("/auth/login")
-async def login(username: str = Form(...), password: str = Form(...)):
-    db_user = await users_collection.find_one({"email": username})
-    if not db_user or not verify_password(password, db_user["hashed_password"]):
+async def login(response: Response, payload: LoginRequest):
+    db_user = await users_collection.find_one({"email": payload.username})
+    if not db_user or not verify_password(payload.password, db_user["hashed_password"]):
         raise HTTPException(status_code=401, detail="Invalid credentials")
-    token = create_access_token({"sub": username})
-    return {"access_token": token, "token_type": "bearer"}
+
+    token = create_access_token({"sub": payload.username})
+    response.set_cookie(
+        key="auth_token",
+        value=token,
+        httponly=True,
+        secure=True,
+        samesite="strict",
+        max_age=3600,
+        path="/"
+    )
+
+    return {"message": "Login successful","email":db_user["email"], "token":token}
 
 
 @router.get("/auth",name="auth")
@@ -81,7 +98,7 @@ async def auth_google(request: Request):
 async def auth_google_callback(request: Request):
     token = await oauth.google.authorize_access_token(request)
     user_info = await oauth.google.parse_id_token(request, token)
-    email = user_info['email']
+    email = user_info['email']  
     user = users_collection.find_one({"email": email})
     if not user:
         user_data = {

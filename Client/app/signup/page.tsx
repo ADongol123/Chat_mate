@@ -14,6 +14,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { useToast } from "@/hooks/use-toast"
+import { register } from "@/services/auth_service"
 
 export default function SignupPage() {
   const router = useRouter()
@@ -35,48 +36,61 @@ export default function SignupPage() {
     setFormData((prev) => ({ ...prev, accountType: value }))
   }
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsLoading(true)
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setIsLoading(true);
 
-    try {
-      // Simulate account creation - in a real app, this would be an API call
-      await new Promise((resolve) => setTimeout(resolve, 1000))
+  try {
+    // Basic validation
+    if (!formData.name || !formData.email || !formData.password) {
+      throw new Error("Please fill in all fields");
+    }
 
-      // Simple validation
-      if (!formData.name || !formData.email || !formData.password) {
-        throw new Error("Please fill in all fields")
-      }
+    // Call backend register API
+    const payload : any = {
+      username: formData.name,
+      email: formData.email,
+      password: formData.password,
+      accountType: formData.accountType,
+    };
 
-      // Show success message
+    const res = await register(payload); // <-- use your register function
+
+    if (res.success) {
+      // Show success toast
       toast({
         title: "Account created",
         description: `Your ${formData.accountType} account has been created successfully!`,
-      })
+      });
 
       // Redirect based on account type
       if (formData.accountType === "admin") {
-        router.push("/admin/dashboard")
+        router.push("/admin/dashboard");
       } else {
-        router.push("/dashboard")
+        router.push("/dashboard");
       }
-    } catch (error) {
-      toast({
-        title: "Sign up failed",
-        description: error instanceof Error ? error.message : "Please check your information and try again",
-        variant: "destructive",
-      })
-    } finally {
-      setIsLoading(false)
+    } else {
+      throw new Error(res.error || "Sign up failed");
     }
+  } catch (error) {
+    toast({
+      title: "Sign up failed",
+      description:
+        error instanceof Error ? error.message : "Please check your information and try again",
+      variant: "destructive",
+    });
+  } finally {
+    setIsLoading(false);
   }
+};
+
 
   return (
     <div className="container flex h-screen w-screen flex-col items-center justify-center">
       <Link href="/" className="absolute left-4 top-4 md:left-8 md:top-8">
         <Button variant="ghost" className="gap-1">
           <Bot className="h-5 w-5" />
-          <span className="font-bold">ChatBotSaaS</span>
+          <span className="font-bold">ChatMate</span>
         </Button>
       </Link>
       <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[400px]">
