@@ -1,6 +1,6 @@
 import sys
 import pandas as pd
-from app.utils.ai_data_load import load_intent_data
+# from app.utils.ai_data_load import load_intent_data
 from fastapi import APIRouter
 
 router  = APIRouter()
