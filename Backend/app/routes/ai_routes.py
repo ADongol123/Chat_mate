@@ -1,9 +1,9 @@
-# import sys
-# import pandas as pd
-# from app.utils.ai_data_load import load_intent_data
-# from fastapi import APIRouter
+import sys
+import pandas as pd
+from app.utils.ai_data_load import load_intent_data
+from fastapi import APIRouter
 
-# router  = APIRouter()
+router  = APIRouter()
 
 
 # file_path = "app/data/intent_dataset.json"
@@ -23,6 +23,6 @@
     
     
 
-# @router.get("/test")
-# async def test():
-#     return {"message":"This is a test route!"}
+@router.get("/test")
+async def test():
+    return {"message":"This is a test route!"}
