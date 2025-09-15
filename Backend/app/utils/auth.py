@@ -1,4 +1,4 @@
-from fastapi import Depends, HTTPException, status
+from fastapi import Depends, HTTPException, status, Request
 from fastapi.security import OAuth2PasswordBearer
 from jose import JWTError, jwt
 from app.utils.config import settings
@@ -24,16 +24,24 @@ def verify_token(token:str):
         )
         
 
-async def get_current_user(token: str = Depends(oauth2_scheme)):
-    print(token)
-    try:
-        user_id = verify_token(token)
-        if user_id is None:
-            raise ValueError("Invalid token payload")
-    except Exception:
+async def get_current_user(request: Request):
+    token = request.cookies.get("auth_token")
+    if not token:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Could not validate credentials",
-            headers={"WWW-Authenticate": "Bearer"},
+            detail="Not authenticated"
         )
-    return user_id
+    try:
+        payload = jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
+        user_id = payload.get("sub")
+        if not user_id:
+            raise HTTPException(
+                status_code=status.HTTP_401_UNAUTHORIZED,
+                detail="Invalid token"
+            )
+        return user_id
+    except JWTError:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid token"
+        )

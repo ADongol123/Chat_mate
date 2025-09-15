@@ -11,3 +11,4 @@ client  = AsyncIOMotorClient(settings.MONGODB_URL)
 db = client[settings.DB_NAME]
 
 chatbots_collection = db["chat_details"]
+embeddings_collection = db["embeddings"]

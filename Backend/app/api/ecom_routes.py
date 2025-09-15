@@ -166,7 +166,7 @@ async def upload_file(file: UploadFile = File(...), user_id: str = Depends(get_c
                 vectors_config=VectorParams(
                     size=VECTOR_SIZE,
                     distance=Distance.COSINE
-                )
+                ) 
             )
 
         # ✅ Add docs to Qdrant

@@ -9,6 +9,7 @@ from app.utils.config import settings
 from authlib.integrations.starlette_client import OAuth
 from starlette.config import Config
 from starlette.middleware.sessions import SessionMiddleware
+from fastapi.security import OAuth2PasswordRequestForm  
 # from fastapi import FastAPI
 import os
 os.environ.pop("SSL_CERT_FILE", None)
@@ -70,7 +71,7 @@ async def register(user: RegisterModel):
 
 
 @router.post("/auth/login")
-async def login(response: Response, payload: LoginRequest):
+async def login(response: Response, payload:  OAuth2PasswordRequestForm = Depends()): 
     db_user = await users_collection.find_one({"email": payload.username})
     if not db_user or not verify_password(payload.password, db_user["hashed_password"]):
         raise HTTPException(status_code=401, detail="Invalid credentials")
