@@ -8,7 +8,7 @@ from app.utils.config import settings
 import hashlib
 from motor.motor_asyncio import AsyncIOMotorClient
 from concurrent.futures import ThreadPoolExecutor
-from app.api.intent_classification_routes import classify_intent_with_mistral
+from app.core.intent_classification import classify_intent_with_mistral
 import traceback
 
 
@@ -51,13 +51,13 @@ INTENT_COLLECTION_MAPPING = {
     "account_login": "account",
     "account_update": "account",
     "technical_issue": "support",
-    "app_support": "support",
+    "app_support": "support",   
     "store_policy": "store",
     "store_info": "store",
     "subscription_inquiry": "store",
     "greeting_smalltalk": "misc",
     "feedback_complaint": "misc",
-    "agent_escalation": "misc",
+    "agent_escalation": "misc", 
     "unknown": "misc"
 }
 
@@ -146,6 +146,7 @@ async def search_text(
     try:
         # Step 1: Detect intent
         classification = classify_intent_with_mistral(query)
+        print("Classification result:", classification)
         intent = classification.get("intent", "unknown")
         print(f"[INFO] Query intent detected: {intent}")
 
