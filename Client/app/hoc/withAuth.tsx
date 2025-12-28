@@ -13,18 +13,18 @@ function withAuth<P extends object>(
     const router = useRouter();
     const pathname = usePathname(); // get current path
 
-    useEffect(() => {
-      if (!isAuthenticated()) {
-        // Not logged in → redirect to login
-        router.replace("/login");
-      } else if (pathname === "/login") {
-        // Already logged in and trying to access login page → redirect to dashboard
-        router.replace(redirectIfAuthenticated);
-      }
-    }, [router, pathname]);
+    // useEffect(() => {
+    //   if (!isAuthenticated()) {
+    //     // Not logged in → redirect to login
+    //     router.replace("/login");
+    //   } else if (pathname === "/login") {
+    //     // Already logged in and trying to access login page → redirect to dashboard
+    //     router.replace(redirectIfAuthenticated);
+    //   }
+    // }, [router, pathname]);
 
-    // Show nothing while redirecting
-    if (!isAuthenticated() || pathname === "/login") return null;
+    // // Show nothing while redirecting
+    // if (!isAuthenticated() || pathname === "/login") return null;
 
     // Wrap the protected component with the sidebar
     return (

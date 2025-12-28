@@ -21,7 +21,7 @@ import { useToast } from "@/hooks/use-toast";
 import { login } from "@/services/auth_service";
 import withAuth from "../hoc/withAuth";
 
-const LoginPage = () =>  {
+const LoginPage = () => {
   const router = useRouter();
   const { toast } = useToast();
   const [isLoading, setIsLoading] = useState(false);
@@ -35,51 +35,58 @@ const LoginPage = () =>  {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
+  // const handleSubmit = async (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   setIsLoading(true);
+
+  //   try {
+  //     // Validate form
+  //     if (!formData.email || !formData.password) {
+  //       throw new Error("Please fill in all fields");
+  //     }
+
+  //     // Call backend login
+  //     const payload = {
+  //       username: formData.email,
+  //       password: formData.password,
+  //     };
+
+  //     const res = await login(payload);
+
+  //     if (res.data.token) {
+  //       // Token is already saved inside setAuthToken
+  //       toast({
+  //         title: "Login successful",
+  //         description: `Welcome back!`,
+  //       });
+
+  //       // Redirect based on email (example logic)
+  //       const isAdmin = formData.email.includes("admin");
+  //       router.push(isAdmin ? "/admin/dashboard" : "/dashboard");
+  //     } else {
+  //       throw new Error("Invalid credentials");
+  //     }
+  //   } catch (error) {
+  //     toast({
+  //       title: "Login failed",
+  //       description:
+  //         error instanceof Error
+  //           ? error.message
+  //           : "Please check your credentials and try again",
+  //       variant: "destructive",
+  //     });
+  //   } finally {
+  //     setIsLoading(false);
+  //   }
+  // };
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setIsLoading(true);
-
-    try {
-      // Validate form
-      if (!formData.email || !formData.password) {
-        throw new Error("Please fill in all fields");
-      }
-
-      // Call backend login
-      const payload = {
-        username: formData.email,
-        password: formData.password,
-      };
-
-      const res = await login(payload); 
-
-      if (res.data.token) {
-        // Token is already saved inside setAuthToken
-        toast({
-          title: "Login successful",
-          description: `Welcome back!`,
-        });
-
-        // Redirect based on email (example logic)
-        const isAdmin = formData.email.includes("admin");
-        router.push(isAdmin ? "/admin/dashboard" : "/dashboard");
-      } else {
-        throw new Error("Invalid credentials");
-      }
-    } catch (error) {
-      toast({
-        title: "Login failed",
-        description:
-          error instanceof Error
-            ? error.message
-            : "Please check your credentials and try again",
-        variant: "destructive",
-      });
-    } finally {
-      setIsLoading(false);
-    }
+    router.push("/dashboard");
+    toast({
+      title: "Login successful",
+      description: `Welcome back!`,
+    });
   };
-
   return (
     <motion.div
       className="container flex h-screen w-screen flex-col items-center justify-center overflow-hidden"
@@ -245,8 +252,6 @@ const LoginPage = () =>  {
       </div>
     </motion.div>
   );
-}
+};
 
-
-
-export default  LoginPage 
+export default LoginPage;
